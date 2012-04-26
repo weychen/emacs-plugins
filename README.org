@@ -46,6 +46,24 @@ ec xx.cpp
    perl
 ** eo
    org文件
+*** 快捷键
+	- F5
+	  导出org文件到html
+	- F6
+	  导出Agenda到~/Desktop/agenda.html
+	- F9
+	  org-archive-subtree-default-with-confirmation
+	- F10
+	  org-colums
+	- F11
+	  org-refile
+	- F12
+	  org-agenda
+** em
+   muse模式
+*** 快捷键
+	- F5
+	  导出为html
 ** er
    erlang
 ** ess
@@ -54,17 +72,16 @@ ec xx.cpp
    graphviz
 ** ep
    python
-* 快捷键
+* 通用快捷键
+  - C-k
+	删除一整行
   - F2
-    + 绑定replace-string，文本替换
+    绑定replace-string，文本替换
   - F3
-    + tabbar移动到前一个tab
+    tabbar移动到前一个tab
   - F4
-    + tabbar移动到后一个tab
-  - F5
-    + org-mode下: 发布当前文件为html
-    + muse-mode下: 发布当前文件为html
+    tabbar移动到后一个tab
   - F6
-    + org-mode下的发布当前agenda为html
-  - F12
-    + org-mode下显示agenda
+	跳到某一行
+  - F8
+	执行命令，等同于M-x，用于mac下某些情况meta键失效的场景
