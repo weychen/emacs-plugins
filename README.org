@@ -24,46 +24,30 @@ ec xx.cpp
 ** ec
    c/c++
 *** 快捷键
-	- F9
-	  启动ecb
-	- C-c C-j
-	  跳转到符号，例如跳转到一个函数
-	- C-c C-k
-	  跳回来
-	- C-c C-s
-	  跳到代码窗口
-	- C-c C-m
-	  跳到method窗口
-	- C-c C-f
-	  跳到文件窗口
-	- C-c C-d
-	  跳到文件夹窗口
-	- C-f
-	  刷新右侧的符号表
-	- C-c C-l
-	  调用cflow显示函数调用图
+	- F9 启动ecb
+	- C-c C-j 跳转到符号，例如跳转到一个函数
+	- C-c C-k 跳回来
+	- C-c C-s 跳到代码窗口
+	- C-c C-m 跳到method窗口
+	- C-c C-f 跳到文件窗口
+	- C-c C-d 跳到文件夹窗口
+	- C-f 刷新右侧的符号表
+	- C-c C-l 调用cflow显示函数调用图
 ** el
    perl
 ** eo
    org文件
 *** 快捷键
-	- F5
-	  导出org文件到html
-	- F6
-	  导出Agenda到~/Desktop/agenda.html
-	- F9
-	  org-archive-subtree-default-with-confirmation
-	- F10
-	  org-colums
-	- F11
-	  org-refile
-	- F12
-	  org-agenda
+	- F5 导出org文件到html
+	- F6 导出Agenda到~/Desktop/agenda.html
+	- F9 org-archive-subtree-default-with-confirmation
+	- F10 org-colums
+	- F11 org-refile
+	- F12 org-agenda
 ** em
    muse模式
 *** 快捷键
-	- F5
-	  导出为html
+	- F5 导出为html
 ** er
    erlang
 ** ess
@@ -73,15 +57,9 @@ ec xx.cpp
 ** ep
    python
 * 通用快捷键
-  - C-k
-	删除一整行
-  - F2
-    绑定replace-string，文本替换
-  - F3
-    tabbar移动到前一个tab
-  - F4
-    tabbar移动到后一个tab
-  - F6
-	跳到某一行
-  - F8
-	执行命令，等同于M-x，用于mac下某些情况meta键失效的场景
+  - C-k 删除一整行
+  - F2 绑定replace-string，文本替换
+  - F3 tabbar移动到前一个tab
+  - F4 tabbar移动到后一个tab
+  - F6 跳到某一行
+  - F8 执行命令，等同于M-x，用于mac下某些情况meta键失效的场景
