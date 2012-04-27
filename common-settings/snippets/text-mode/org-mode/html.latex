@@ -1,0 +1,10 @@
+#name : HTML with LaTeX
+#contributor : Tan Menglong <tanmenglong@gmail.com>
+# --
+#+BEGIN_HTML
+<div style="font-size: 100%">
+\[
+${0}
+\]
+</div>
+#+END_HTML
