@@ -1,5 +1,10 @@
 #!/bin/bash
 
+alias greph="find . -name '*.h' | xargs grep -n "
+alias grepcpp="find . -name '*.cpp' | xargs grep -n "
+alias grepc="find . -name '*.c' | xargs grep -n "
+alias greppy="find . -name '*.py' | xargs grep -n "
+
 alias emacs='emacs -nw'
 alias e='emacs -nw'
 alias ec="emacs -l ~/.emacs.d/emacs-plugins/init/c-settings.el"
@@ -12,6 +17,7 @@ alias ess="emacs -l ~/.emacs.d/emacs-plugins/init/r-settings.el"
 alias ed="emacs -l ~/.emacs.d/emacs-plugins/init/dot-settings.el"
 alias ep="emacs -l ~/.emacs.d/emacs-plugins/init/py-settings.el"
 alias emd="emacs -l ~/.emacs.d/emacs-plugins/init/markdown-settings.el"
+alias etex="emacs -l ~/.emacs.d/emacs-plugins/init/latex-settings.el"
 
 # for R in mac
 export JAVA_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
