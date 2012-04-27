@@ -1,0 +1,11 @@
+# -*- mode: org -*-
+
+#+TITLE: ${1:标题}
+#+AUTHOR: Tan Menglong
+#+EMAIL: tanmenglong AT gmail DOT com
+
+#+BEGIN_HTML
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+#+END_HTML
+
+$2

@@ -3,4 +3,6 @@
 #+TITLE: ${1:标题}
 #+AUTHOR: Tan Menglong
 #+EMAIL: tanmenglong AT gmail DOT com
+#+DATE: `(current-time-string)`
+
 $2
