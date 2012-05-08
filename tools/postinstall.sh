@@ -20,6 +20,6 @@ make -C ~/.emacs.d/emacs-plugins/c-settings/cedet-1.0
 make -C ~/.emacs.d/emacs-plugins/c-settings/ecb-2.40
 make -C ~/.emacs.d/emacs-plugins/muse-settings/muse
 
-echo "source ~/.emacs.d/emacs-plugins/tools/shell_init.sh" >> ~/.bashrc
-echo "source ~/.emacs.d/emacs-plugins/tools/shell_init.sh" >> ~/.zshrc
+echo "source ~/.emacs.d/emacs-plugins/tools/init-shell.sh" >> ~/.bashrc
+echo "source ~/.emacs.d/emacs-plugins/tools/init-shell.sh" >> ~/.zshrc
 

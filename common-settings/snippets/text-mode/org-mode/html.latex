@@ -1,10 +1,10 @@
-#name : HTML.latex
+#name : html.latex
 #contributor : Tan Menglong <tanmenglong@gmail.com>
 # --
 #+BEGIN_HTML
-<div style="font-size: 100%">
+<div class="latex_formula" style="font-size: 100%">
 \[
-${0}
+$0
 \]
 </div>
 #+END_HTML
