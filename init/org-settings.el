@@ -1,7 +1,7 @@
 (require 'org)
 
 (add-to-list 'auto-mode-alist '("\\.\\(org\\|org_archive\\|txt\\)$" . org-mode))
-(global-font-lock-mode 1)                     ; for all buffers
+(global-font-lock-mode 1)
 (setq org-hide-leading-stars t)
 (setq org-log-done t)
 (add-hook 'org-mode-hook (lambda () (setq truncate-lines nil)))
