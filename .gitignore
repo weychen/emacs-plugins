@@ -1,2 +1,3 @@
 *.elc
 *.el~
+components/cedet/cedet-1.1/

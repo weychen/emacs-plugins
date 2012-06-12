@@ -16,6 +16,7 @@
 #------------------- main -------------------
 
 make -C ~/.emacs.d/emacs-plugins/components/auto-complete/auto-complete/
+cd ~/.emacs.d/emacs-plugins/components/cedet/ && tar xzvf cedet-1.1.tar.gz
 make -C ~/.emacs.d/emacs-plugins/components/cedet/cedet-1.1/
 make -C ~/.emacs.d/emacs-plugins/components/color-theme/color-theme-6.6.0/
 make -C ~/.emacs.d/emacs-plugins/components/distel/
