@@ -15,11 +15,16 @@
 
 #------------------- main -------------------
 
-cd ~/.emacs.d/emacs-plugins/c-settings/; rm -rf cedet-1.0; tar xzvf cedet-1.0.tar.gz
-make -C ~/.emacs.d/emacs-plugins/c-settings/cedet-1.0
-make -C ~/.emacs.d/emacs-plugins/c-settings/ecb-2.40
-make -C ~/.emacs.d/emacs-plugins/muse-settings/muse
+make -C ~/.emacs.d/emacs-plugins/components/auto-complete/auto-complete/
+make -C ~/.emacs.d/emacs-plugins/components/cedet/cedet-1.1/
+make -C ~/.emacs.d/emacs-plugins/components/color-theme/color-theme-6.6.0/
+make -C ~/.emacs.d/emacs-plugins/components/distel/
+make -C ~/.emacs.d/emacs-plugins/components/ecb/ecb-2.40/
+make -C ~/.emacs.d/emacs-plugins/components/muse/muse/
+make -C ~/.emacs.d/emacs-plugins/components/slime/
+make -C ~/.emacs.d/emacs-plugins/components/yasnippet/yasnippet/
 
-echo "source ~/.emacs.d/emacs-plugins/tools/init-shell.sh" >> ~/.bashrc
-echo "source ~/.emacs.d/emacs-plugins/tools/init-shell.sh" >> ~/.zshrc
+
+#echo "source ~/.emacs.d/emacs-plugins/tools/init-shell.sh" >> ~/.bashrc
+#echo "source ~/.emacs.d/emacs-plugins/tools/init-shell.sh" >> ~/.zshrc
 
