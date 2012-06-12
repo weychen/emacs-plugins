@@ -1,5 +1,5 @@
 ;; erlware
-(setq load-path (cons "~/.emacs.d/emacs-plugins/erl-settings/erlware-mode/" load-path))
+(setq load-path (cons "~/.emacs.d/emacs-plugins/components/erlware-mode/erlware-mode/" load-path))
 (setq erlang-man-root-dir "/usr/lib/")
 (setq exec-path (cons "/usr/lib/bin" exec-path))
 (require 'erlang-start)

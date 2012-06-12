@@ -1,4 +1,4 @@
-(load-file "~/.emacs.d/emacs-plugins/py-settings/pymacs.el")
+(load-file "~/.emacs.d/emacs-plugins/components/pymacs/pymacs.el")
 
 (autoload 'pymacs-apply "pymacs")
 (autoload 'pymacs-call "pymacs")
