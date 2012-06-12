@@ -24,7 +24,10 @@ make -C ~/.emacs.d/emacs-plugins/components/muse/muse/
 make -C ~/.emacs.d/emacs-plugins/components/slime/
 make -C ~/.emacs.d/emacs-plugins/components/yasnippet/yasnippet/
 
-
-#echo "source ~/.emacs.d/emacs-plugins/tools/init-shell.sh" >> ~/.bashrc
-#echo "source ~/.emacs.d/emacs-plugins/tools/init-shell.sh" >> ~/.zshrc
+if [ -e ~/.bashrc ]; then
+	echo "source ~/.emacs.d/emacs-plugins/tools/init-shell.sh" >> ~/.bashrc;
+fi
+if [ -e ~/.zshrc ]; then
+	echo "source ~/.emacs.d/emacs-plugins/tools/init-shell.sh" >> ~/.zshrc;
+fi
 
