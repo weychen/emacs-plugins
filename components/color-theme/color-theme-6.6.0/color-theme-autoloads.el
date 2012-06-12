@@ -15,7 +15,7 @@
 ;;; Generated autoloads follow (made by autoload.el).
 
 ;;;### (autoloads nil nil ("themes/color-theme-example.el" "themes/color-theme-library.el")
-;;;;;;  (20439 14991 424626))
+;;;;;;  (20439 19907 653195))
 
 ;;;***
 
