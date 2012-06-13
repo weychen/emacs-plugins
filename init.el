@@ -54,3 +54,9 @@
 				  (load-file "~/.emacs.d/emacs-plugins/filetypes/graphviz/init.el"))
 			      )))
 
+(add-hook 'find-file-hook (lambda()
+			    (if (string="tex" (file-name-extension
+								   buffer-file-name))
+				(progn
+				  (load-file "~/.emacs.d/emacs-plugins/filetypes/latex/init.el"))
+			      )))
