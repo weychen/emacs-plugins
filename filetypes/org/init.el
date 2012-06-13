@@ -24,6 +24,6 @@
 
 (add-hook 'org-agenda-mode-hook 'hl-line-mode)
 
-(load-file "~/.emacs.d/emacs-plugins/org-settings/keybindings.el")
-(load-file "~/.emacs.d/emacs-plugins/init/muse-settings.el")
-(load-file "~/.emacs.d/emacs-plugins/init/markdown-settings.el")
+(load-file "~/.emacs.d/emacs-plugins/filetypes/org/keybindings.el")
+(load-file "~/.emacs.d/emacs-plugins/filetypes/muse/init.el")
+(load-file "~/.emacs.d/emacs-plugins/filetypes/markdown/init.el")

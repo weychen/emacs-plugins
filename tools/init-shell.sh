@@ -7,6 +7,5 @@ alias greppy="find . -name '*.py' | xargs grep -n "
 
 alias emacs='emacs -nw'
 alias e='emacs -nw'
+alias eo='emacs -l ~/.emacs.d/emacs-plugins/filetypes/org/init.el'
 
-# for R in mac
-export JAVA_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
