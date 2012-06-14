@@ -60,3 +60,10 @@
 				(progn
 				  (load-file "~/.emacs.d/emacs-plugins/workmodes/latex/init.el"))
 			      )))
+
+(add-hook 'find-file-hook (lambda()
+			    (if (string="R" (file-name-extension
+								 buffer-file-name))
+				(progn
+				  (load-file "~/.emacs.d/emacs-plugins/workmodes/r/init.el"))
+			      )))
