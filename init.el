@@ -1,6 +1,6 @@
 ;; load common-settings
 (add-to-list 'load-path "~/.emacs.d/emacs-plugins/common-settings")
-(load-file "~/.emacs.d/emacs-plugins/filetypes/common/init.el")
+(load-file "~/.emacs.d/emacs-plugins/workmodes/common/init.el")
 
 (defun init-org-settings ()
   (load-file "~/.emacs.d/emacs-plugins/init/org-settings.el"))
@@ -9,7 +9,7 @@
 			    (if (string="org" (file-name-extension
 					       buffer-file-name))
 				(progn
-				  (load-file "~/.emacs.d/emacs-plugins/filetypes/org/init.el"))
+				  (load-file "~/.emacs.d/emacs-plugins/workmodes/org/init.el"))
 			      )))
 
 (add-hook 'find-file-hook (lambda()
@@ -23,40 +23,40 @@
 									 buffer-file-name))
 						)
 				(progn
-				  (load-file "~/.emacs.d/emacs-plugins/filetypes/cpp/init.el"))
+				  (load-file "~/.emacs.d/emacs-plugins/workmodes/cpp/init.el"))
 			      )))
 
 (add-hook 'find-file-hook (lambda()
 			    (if (string="pl" (file-name-extension
 								  buffer-file-name))
 				(progn
-				  (load-file "~/.emacs.d/emacs-plugins/filetypes/perl/init.el"))
+				  (load-file "~/.emacs.d/emacs-plugins/workmodes/perl/init.el"))
 			      )))
 
 (add-hook 'find-file-hook (lambda()
 			    (if (string="erl" (file-name-extension
 								   buffer-file-name))
 				(progn
-				  (load-file "~/.emacs.d/emacs-plugins/filetypes/erlang/init.el"))
+				  (load-file "~/.emacs.d/emacs-plugins/workmodes/erlang/init.el"))
 			      )))
 
 (add-hook 'find-file-hook (lambda()
 			    (if (string="py" (file-name-extension
 								  buffer-file-name))
 				(progn
-				  (load-file "~/.emacs.d/emacs-plugins/filetypes/python/init.el"))
+				  (load-file "~/.emacs.d/emacs-plugins/workmodes/python/init.el"))
 			      )))
 
 (add-hook 'find-file-hook (lambda()
 			    (if (string="dot" (file-name-extension
 								   buffer-file-name))
 				(progn
-				  (load-file "~/.emacs.d/emacs-plugins/filetypes/graphviz/init.el"))
+				  (load-file "~/.emacs.d/emacs-plugins/workmodes/graphviz/init.el"))
 			      )))
 
 (add-hook 'find-file-hook (lambda()
 			    (if (string="tex" (file-name-extension
 								   buffer-file-name))
 				(progn
-				  (load-file "~/.emacs.d/emacs-plugins/filetypes/latex/init.el"))
+				  (load-file "~/.emacs.d/emacs-plugins/workmodes/latex/init.el"))
 			      )))

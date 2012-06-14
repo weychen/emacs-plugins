@@ -1,4 +1,4 @@
-(add-to-list 'load-path "~/.emacs.d/emacs-plugins/filetypes/cpp")
+(add-to-list 'load-path "~/.emacs.d/emacs-plugins/workmodes/cpp")
 
 ;; crackcell coding style
 (require 'crackcell-c-style)
