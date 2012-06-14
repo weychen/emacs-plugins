@@ -1,10 +1,10 @@
 (add-to-list 'load-path "~/.emacs.d/emacs-plugins/filetypes/cpp")
 
 ;; 设置缩进风格
-;(setq indent-tabs-mode nil)
-;(setq default-tab-width 4)
-;(setq tab-width 4)
-;(setq tab-stop-list ())
+(setq indent-tabs-mode nil)
+(setq default-tab-width 4)
+(setq tab-width 4)
+(setq tab-stop-list ())
 
 ;; gccsense
 ;(load-file "~/.emacs.d/emacs-plugins/c-settings/load-gccsense.el")
