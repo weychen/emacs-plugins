@@ -4,5 +4,6 @@
 #+AUTHOR: Tan Menglong
 #+EMAIL: tanmenglong AT gmail DOT com
 #+DATE: `(current-time-string)`
+#+STYLE: <link rel="stylesheet" type="text/css" href="http://blog.crackcell.com/org-mode/note.css" />
 
 $2
