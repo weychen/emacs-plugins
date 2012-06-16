@@ -17,6 +17,8 @@
 									   buffer-file-name))
 						(string="cxx" (file-name-extension
 									   buffer-file-name))
+						(string="cc" (file-name-extension
+									  buffer-file-name))
 						(string="c" (file-name-extension
 									 buffer-file-name))
 						(string="h" (file-name-extension
