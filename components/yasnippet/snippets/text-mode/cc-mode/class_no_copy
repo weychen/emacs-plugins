@@ -1,15 +1,15 @@
-#name: class { ... } for baidu
+#name: class no copy { ... }
 # --
 /**
  * @brief ${1:description}
- * @author ${2:Tan Menglong <tanmenglong@baidu.com>}
+ * @author ${2:Tan Menglong <tanmenglong@gmail.com>}
  */
 class ${3:ClassName} {
 /* functions for building the class */
 public:
     ${3:$(yas/substr text "[^: ]*")}($4);
     virtual ~${3:$(yas/substr text "[^: ]*")}();
-protected:
+private:
     ${3:$(yas/substr text "[^: ]*")}(const ${3:$(yas/substr text "[^: ]*")} &other);
-    ${3:$(yas/substr text "[^: ]*")}& operator=(const ${3:$(yas/substr text "[^: ]*")} &other);
+	${3:$(yas/substr text "[^: ]*")}& operator=(const ${3:$(yas/substr text "[^: ]*")} &other);
 };
