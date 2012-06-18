@@ -2,14 +2,29 @@
 ;;
 ;;; Code:
 
-;;;### (autoloads nil "muse" "muse.el" (20439 13925))
+;;;### (autoloads (muse-message-markup) "../experimental/muse-message"
+;;;;;;  "../experimental/muse-message.el" (20446 40028))
+;;; Generated autoloads from ../experimental/muse-message.el
+
+(autoload 'muse-message-markup "../experimental/muse-message" "\
+Markup a wiki-ish e-mail message as HTML alternative e-mail.
+This step is manual by default, to give the author a chance to review
+the results and ensure they are appropriate.
+If you wish it to be automatic (a risky proposition), just add this
+function to `message-send-hook'.
+
+\(fn)" t nil)
+
+;;;***
+
+;;;### (autoloads nil "muse" "muse.el" (20446 40028))
 ;;; Generated autoloads from muse.el
  (add-to-list 'auto-mode-alist '("\\.muse\\'" . muse-mode-choose-mode))
 
 ;;;***
 
 ;;;### (autoloads (muse-colors-toggle-inline-images) "muse-colors"
-;;;;;;  "muse-colors.el" (20439 13925))
+;;;;;;  "muse-colors.el" (20446 40028))
 ;;; Generated autoloads from muse-colors.el
 
 (autoload 'muse-colors-toggle-inline-images "muse-colors" "\
@@ -20,7 +35,7 @@ Toggle display of inlined images on/off.
 ;;;***
 
 ;;;### (autoloads (muse-import-docbook-files muse-import-docbook)
-;;;;;;  "muse-import-docbook" "muse-import-docbook.el" (20439 13925))
+;;;;;;  "muse-import-docbook" "muse-import-docbook.el" (20446 40028))
 ;;; Generated autoloads from muse-import-docbook.el
 
 (autoload 'muse-import-docbook "muse-import-docbook" "\
@@ -36,26 +51,11 @@ Convert the Docbook file SRC to Muse, writing output to the DEST file.
 ;;;***
 
 ;;;### (autoloads (muse-import-latex) "muse-import-latex" "muse-import-latex.el"
-;;;;;;  (20439 13925))
+;;;;;;  (20446 40028))
 ;;; Generated autoloads from muse-import-latex.el
 
 (autoload 'muse-import-latex "muse-import-latex" "\
-Not documented
 
-\(fn)" t nil)
-
-;;;***
-
-;;;### (autoloads (muse-message-markup) "muse-message" "../experimental/muse-message.el"
-;;;;;;  (20439 13925))
-;;; Generated autoloads from ../experimental/muse-message.el
-
-(autoload 'muse-message-markup "muse-message" "\
-Markup a wiki-ish e-mail message as HTML alternative e-mail.
-This step is manual by default, to give the author a chance to review
-the results and ensure they are appropriate.
-If you wish it to be automatic (a risky proposition), just add this
-function to `message-send-hook'.
 
 \(fn)" t nil)
 
@@ -68,7 +68,7 @@ function to `message-send-hook'.
 ;;;;;;  muse-browse-result muse-edit-link-at-point muse-insert-relative-link-to-file
 ;;;;;;  muse-decrease-list-item-indentation muse-increase-list-item-indentation
 ;;;;;;  muse-insert-list-item muse-mode-choose-mode muse-mode) "muse-mode"
-;;;;;;  "muse-mode.el" (20439 13925))
+;;;;;;  "muse-mode.el" (20446 40028))
 ;;; Generated autoloads from muse-mode.el
 
 (autoload 'muse-mode "muse-mode" "\
@@ -198,7 +198,7 @@ with modes that set `left-margin', such as
 
 ;;;### (autoloads (muse-project-publish muse-project-publish-this-file
 ;;;;;;  muse-project-find-file) "muse-project" "muse-project.el"
-;;;;;;  (20439 13925))
+;;;;;;  (20446 40028))
 ;;; Generated autoloads from muse-project.el
 
 (autoload 'muse-project-find-file "muse-project" "\
@@ -229,7 +229,7 @@ Publish the pages of PROJECT that need publishing.
 ;;;***
 
 ;;;### (autoloads (muse-browse-url) "muse-protocols" "muse-protocols.el"
-;;;;;;  (20439 13925))
+;;;;;;  (20446 40028))
 ;;; Generated autoloads from muse-protocols.el
 
 (autoload 'muse-browse-url "muse-protocols" "\
@@ -241,7 +241,7 @@ If OTHER-WINDOW is non-nil, open in a different window.
 ;;;***
 
 ;;;### (autoloads (muse-publish-this-file muse-publish-file muse-publish-region)
-;;;;;;  "muse-publish" "muse-publish.el" (20439 13925))
+;;;;;;  "muse-publish" "muse-publish.el" (20446 40028))
 ;;; Generated autoloads from muse-publish.el
 
 (autoload 'muse-publish-region "muse-publish" "\
@@ -274,13 +274,13 @@ supplied.
 ;;;;;;  "muse-groff.el" "muse-html.el" "muse-http.el" "muse-ikiwiki.el"
 ;;;;;;  "muse-import-xml.el" "muse-ipc.el" "muse-journal.el" "muse-latex.el"
 ;;;;;;  "muse-latex2png.el" "muse-poem.el" "muse-regexps.el" "muse-texinfo.el"
-;;;;;;  "muse-wiki.el" "muse-xml-common.el" "muse-xml.el") (20439
-;;;;;;  14992 270188))
+;;;;;;  "muse-wiki.el" "muse-xml-common.el" "muse-xml.el") (20446
+;;;;;;  40116 222035))
 
 ;;;***
 
 ;;;### (autoloads (muse-blosxom-new-entry) "muse-blosxom" "muse-blosxom.el"
-;;;;;;  (20439 13925))
+;;;;;;  (20446 40028))
 ;;; Generated autoloads from muse-blosxom.el
 
 (autoload 'muse-blosxom-new-entry "muse-blosxom" "\
