@@ -1,5 +1,8 @@
 (require 'org)
 
+; use htmlize to highlight code block
+(add-to-list 'load-path "~/.emacs.d/emacs-plugins/components/htmlize/")
+
 (add-to-list 'auto-mode-alist '("\\.\\(org\\|org_archive\\|txt\\)$" . org-mode))
 (global-font-lock-mode 1)
 (setq org-hide-leading-stars t)
