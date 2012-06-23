@@ -1,11 +1,5 @@
 (add-to-list 'load-path "~/.emacs.d/emacs-plugins/workmodes/cpp")
 
-;; 设置缩进风格
-(setq indent-tabs-mode nil)
-(setq default-tab-width 4)
-(setq tab-width 4)
-(setq tab-stop-list ())
-
 ;; gccsense
 ;(load-file "~/.emacs.d/emacs-plugins/c-settings/load-gccsense.el")
 
@@ -19,7 +13,7 @@
 (load-file "~/.emacs.d/emacs-plugins/workmodes/cpp/load-cedet.el")
 
 ;; ecb
-;(load-file "~/.emacs.d/emacs-plugins/workmodes/cpp/load-ecb.el")
+(load-file "~/.emacs.d/emacs-plugins/workmodes/cpp/load-ecb.el")
 
 ;; coding style
 (load-file "~/.emacs.d/emacs-plugins/workmodes/cpp/load-codingstyle.el")
@@ -31,3 +25,11 @@
 (require 'whitespace)
 (setq whitespace-style '(face empty tabs lines-tail trailing))
 (global-whitespace-mode t)
+
+;; 设置缩进风格
+;(customize-variable (quote tab-stop-list))
+;(setq-default indent-tabs-mode nil)
+;(setq indent-tabs-mode nil)
+;(setq default-tab-width 4)
+;(setq tab-width 4)
+;(setq tab-stop-list ())

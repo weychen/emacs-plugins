@@ -1,4 +1,4 @@
-#name: class { ... } for baidu
+#name: class.baidu {}
 # --
 /**
  * @brief ${1:description}
