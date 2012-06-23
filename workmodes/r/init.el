@@ -15,7 +15,8 @@
 
 ;; load coding style
 (load "~/.emacs.d/emacs-plugins/workmodes/r/crackcell-r-style.el")
-(add-hook 'ess-mode-hook 'crackcell-set-r-style)
+(crackcell-set-r-style)
+;(add-hook 'ess-mode-hook 'crackcell-set-r-style)
 
 ;; 改变每行超出80个字符部分的颜色
 (require 'whitespace)
