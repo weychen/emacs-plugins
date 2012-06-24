@@ -3,8 +3,8 @@
 # --
 %%%-*- encoding: utf-8; indent-tabs-mode: nil -*-
 %%%-------------------------------------------------------------------
-%%% @author crackcell <tanmenglong@gmail.com>
-%%% @copyright (c) `(format-time-string "%Y")`, crackcell
+%%% @author Tan Menglong <tanmenglong@gmail.com>
+%%% @copyright (c) `(format-time-string "%Y")`, Tan Menglong
 %%% @doc
 %%% ${1:file desc}
 %%% @end
