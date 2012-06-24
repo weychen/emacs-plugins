@@ -1,7 +1,7 @@
-#name: class.simple
+#name: class.simple {}
 # --
 class ${1:ClassName} {
 public:
-    ${1:$(yas/substr text "[^: ]*")}($2);
-    virtual ~${1:$(yas/substr text "[^: ]*")}();
+    ${1:$(yas/substr text "[^: ]*")}($2) {}
+    virtual ~${1:$(yas/substr text "[^: ]*")}() {}
 };

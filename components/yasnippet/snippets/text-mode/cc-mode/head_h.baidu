@@ -1,6 +1,6 @@
 #name : head_h for baidu
 # --
-// -*- encoding: utf-8; indent-tabs-mode: nil -*-
+/* -*- encoding: utf-8; indent-tabs-mode: nil -*- */
 
 /***************************************************************
  *
@@ -14,10 +14,11 @@
 ${2:#include <stdio.h>}
 
 /**
+ * $3
+ *
  * @file `(file-name-nondirectory (buffer-file-name))`
- * @author TanMenglong <tanmenglong@baidu.com>
+ * @author Tan Menglong <tanmenglong@baidu.com>
  * @date `(current-time-string)`
- * @brief $3
  *
  **/
 

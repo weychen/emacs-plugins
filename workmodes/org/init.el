@@ -30,9 +30,3 @@
 (load-file "~/.emacs.d/emacs-plugins/workmodes/org/keybindings.el")
 (load-file "~/.emacs.d/emacs-plugins/workmodes/muse/init.el")
 (load-file "~/.emacs.d/emacs-plugins/workmodes/markdown/init.el")
-
-;; Line wrap
-(setq line-move-visual nil)
-
-; remove '\' in line wrap
-(set-display-table-slot standard-display-table 'wrap ?\ )

@@ -1,9 +1,7 @@
 ;; load common-settings
 (add-to-list 'load-path "~/.emacs.d/emacs-plugins/common-settings")
 (load-file "~/.emacs.d/emacs-plugins/workmodes/common/init.el")
-
-(defun init-org-settings ()
-  (load-file "~/.emacs.d/emacs-plugins/init/org-settings.el"))
+(load-file "~/.emacs.d/emacs-plugins/workmodes/erlang/init.el")
 
 (add-hook 'find-file-hook (lambda()
 			    (if (string="org" (file-name-extension
@@ -33,13 +31,6 @@
 								  buffer-file-name))
 				(progn
 				  (load-file "~/.emacs.d/emacs-plugins/workmodes/perl/init.el"))
-			      )))
-
-(add-hook 'find-file-hook (lambda()
-			    (if (string="erl" (file-name-extension
-								   buffer-file-name))
-				(progn
-				  (load-file "~/.emacs.d/emacs-plugins/workmodes/erlang/init.el"))
 			      )))
 
 (add-hook 'find-file-hook (lambda()

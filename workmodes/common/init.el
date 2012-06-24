@@ -8,14 +8,14 @@
 
 ;; 自动备份目录
 (setq make-backup-files t)
-(setq backup-directory-alist '(("."."~/.emacs_saves")))
+(setq backup-directory-alist '(("."."~/.emacs.d/emacs_saves")))
 
 ;; 自定义加载路径
 (setq load-path (cons
 				 "~/.emacs.d/emacs-plugins/workmodes/commons" load-path))
 
 ;; 设置默认 用户名 和 email
-(setq user-full-name "crackcell")
+(setq user-full-name "Tan Menglong")
 (setq user-mail-address "tanmenglong@gmail.com")
 
 ;; Replace "yes or no" with y or n
@@ -52,3 +52,9 @@
 
 ;; muse
 ;;(load-file "~/.emacs.d/emacs-plugins/init/muse-settings.el")
+
+;; Line wrap
+(setq line-move-visual nil)
+
+; remove '\' in line wrap
+(set-display-table-slot standard-display-table 'wrap ?\ )
