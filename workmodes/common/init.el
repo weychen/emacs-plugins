@@ -54,7 +54,7 @@
 ;;(load-file "~/.emacs.d/emacs-plugins/init/muse-settings.el")
 
 ;; Line wrap
-(setq line-move-visual nil)
+(setq line-move-visual t)
 
 ; remove '\' in line wrap
 (set-display-table-slot standard-display-table 'wrap ?\ )
