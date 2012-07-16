@@ -61,3 +61,10 @@
 				(progn
 				  (load-file "~/.emacs.d/emacs-plugins/workmodes/r/init.el"))
 			      )))
+
+(add-hook 'find-file-hook (lambda()
+			    (if (string="md" (file-name-extension
+								 buffer-file-name))
+				(progn
+				  (load-file "~/.emacs.d/emacs-plugins/workmodes/markdown/init.el"))
+			      )))

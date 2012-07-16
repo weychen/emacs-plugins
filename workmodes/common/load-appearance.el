@@ -22,7 +22,7 @@
   ;; If you edit it by hand, you could mess it up, so be careful.
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "black" :foreground "#eeeeec" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 130 :width normal :foundry "microsoft" :family "Monaco")))))
+ '(default ((t (:inherit nil :stipple nil :background "white" :foreground "#000000" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 130 :width normal :foundry "microsoft" :family "Monaco")))))
 
 ;; 初始窗口大小
 (add-to-list 'default-frame-alist (cons 'width 100))
@@ -48,7 +48,7 @@
 (load-file "~/.emacs.d/emacs-plugins/components/color-theme/color-theme-6.6.0/themes/color-theme-library.el")
 (load-file "~/.emacs.d/emacs-plugins/components/color-theme/my-color-themes.el")
 
-;(color-theme-crackcell-dark1)
+;(color-theme-crackcell-light1)
 ;(color-theme-blackboard)
 
 ;; 开启行号

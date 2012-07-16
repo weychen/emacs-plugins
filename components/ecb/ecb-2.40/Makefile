@@ -49,7 +49,7 @@ EMACS=emacs
 # >= 0.15). Set here the full path to the cedet-installation directory.
 
 #CEDET=c:/Programme/emacs-22.3/site-lisp/package-development/cedet
-CEDET=~/.emacs.d/emacs-plugins/c-settings/cedet-1.0
+CEDET=~/.emacs.d/emacs-plugins/components/cedet/cedet-1.1
 
 # You can set here more load-paths to arbitrary packages if you want. But
 # this is really not necessary!
