@@ -55,6 +55,8 @@
 
 ;; Line wrap
 (setq line-move-visual t)
+(visual-line-mode t)
+(global-visual-line-mode t)
 
 ; remove '\' in line wrap
 (set-display-table-slot standard-display-table 'wrap ?\ )
