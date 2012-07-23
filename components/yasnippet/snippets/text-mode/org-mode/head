@@ -6,4 +6,11 @@
 #+DATE: `(current-time-string)`
 #+STYLE: <link rel="stylesheet" type="text/css" href="http://blog.crackcell.com/org-mode/note.css" />
 
+#+BEGIN_HTML
+<div style="color:#cccccc;font-size:9px;">
+/* -*- authore: 谭孟泷; email: tanmenglong_at_gmail; twitter/weibo: @crackcell; 转载请注明出处 -*- */
+</div>
+#+END_HTML
+
+
 $2

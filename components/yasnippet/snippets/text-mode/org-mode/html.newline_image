@@ -1,6 +1,8 @@
-#name : html
+#name : html.newline_image
 #contributor : Rick Moynihan <rick@sourcesmouth.co.uk>
 # --
 #+BEGIN_HTML
-$1
+<div>
+<img src="$1">
+</div>
 #+END_HTML

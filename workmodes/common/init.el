@@ -54,8 +54,8 @@
 ;;(load-file "~/.emacs.d/emacs-plugins/init/muse-settings.el")
 
 ;; Line wrap
-(setq line-move-visual t)
-(visual-line-mode t)
+;(setq line-move-visual t)
+;(visual-line-mode t)
 (global-visual-line-mode t)
 
 ; remove '\' in line wrap
