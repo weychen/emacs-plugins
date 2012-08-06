@@ -1,5 +1,4 @@
 ;; load common-settings
-(add-to-list 'load-path "~/.emacs.d/emacs-plugins/common-settings")
 (load-file "~/.emacs.d/emacs-plugins/workmodes/common/init.el")
 (load-file "~/.emacs.d/emacs-plugins/workmodes/erlang/init.el")
 (load-file "~/.emacs.d/emacs-plugins/workmodes/graphviz/init.el")
