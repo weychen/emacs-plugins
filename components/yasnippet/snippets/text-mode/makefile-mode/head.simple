@@ -1,0 +1,18 @@
+#name : head.simple
+# --
+# Author:  Tan Menglong <tanmenglong@gmail.com>
+# Date:    `(current-time-string)`
+#
+# Make Target:
+# ------------
+# The Makefile provides the following targets to make:
+#   $ make           compile and link
+#   $ make clean     clean objects and the executable file
+#
+#===========================================================================
+
+all :
+	$1
+
+clean :
+	$2
