@@ -13,17 +13,19 @@
 
 include ${1:../Makefile.env}
 
-BUILD_TARGETS = $1
-SRC = $(wildcard src/*.cpp)
+BUILD_TARGETS = $2
+
+INC = ${3:-I../include -I./}
+
+SRC = $(wildcard *.cpp)
 OBJ = $(patsubst %.cpp, %.o, $(SRC))
 
 .PHONY : all clean
 
-all : $1
+all : $(BUILD_TARGETS)
 
-$1 : $(OBJ)
-   $(LINK) $^ -o $@ $(INC) $(LIB) $(LINKFLAGS)
+$(BUILD_TARGETS) : $(OBJ)
+	$(LINK) -o $@ $^ $(LIB)
 
 clean:
-	@(for i in ${SUBDIRS}; do (cd $$i; pwd; ${MAKE} $@); done)
-	rm -rf $(BUILD_TARGETS) *.o output
+	rm -rf $(OBJ) $(BUILD_TARGETS)

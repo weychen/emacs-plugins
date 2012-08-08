@@ -11,6 +11,8 @@
 #
 #===========================================================================
 
+include Makefile.env
+
 .PHONY : all output clean help
 
 all : ${2:output}
@@ -19,11 +21,11 @@ output :
 	mkdir -p output
 	make -C src
 
-clean:
-
+clean :
 	rm -rf output
+	make clean -C src
 
-help:
+help :
 	@echo 'Usage: make [TARGET]'
 	@echo 'TARGETS:'
 	@echo '  all       (=make) compile and link.'
