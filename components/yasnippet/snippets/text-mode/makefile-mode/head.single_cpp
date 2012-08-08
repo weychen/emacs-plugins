@@ -1,4 +1,4 @@
-#name : head.cpp
+#name : head.single_cpp
 # --
 # Author:  Tan Menglong <tanmenglong@gmail.com>
 # Date:    `(current-time-string)`
@@ -22,6 +22,8 @@ LINKFLAGS = -rdynamic
 
 BUILD_TARGETS = $1
 
+.PHONY : all output clean help
+
 all : ${2:output}
 
 $1 : 
@@ -32,3 +34,11 @@ output: $(BUILD_TARGETS)
 clean:
 	@(for i in ${SUBDIRS}; do (cd $$i; pwd; ${MAKE} $@); done)
 	rm -rf $(BUILD_TARGETS) *.o actest output
+
+help:
+	@echo 'Usage: make [TARGET]'
+	@echo 'TARGETS:'
+	@echo '  all       (=make) compile and link.'
+	@echo '  clean     clean objects and the executable file.'
+	@echo '  help      print this message.'
+	@echo

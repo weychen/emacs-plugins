@@ -1,13 +1,7 @@
-#name : head.env
+#name : head.multiple_cpp-env
 # --
 # Author:  Tan Menglong <tanmenglong@gmail.com>
 # Date:    `(current-time-string)`
-#
-# Make Target:
-# ------------
-# The Makefile provides the following targets to make:
-#   $ make           compile and link
-#   $ make clean     clean objects and the executable file
 #
 #===========================================================================
 
@@ -19,3 +13,7 @@ MAKE = make
 
 LINK = g++
 LINKFLAGS = -rdynamic
+
+ROOT = ${1:../}
+INC = $2
+LIB = $3

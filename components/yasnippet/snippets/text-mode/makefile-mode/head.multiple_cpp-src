@@ -1,0 +1,29 @@
+#name : head.multiple_cpp-src
+# --
+# Author:  Tan Menglong <tanmenglong@gmail.com>
+# Date:    `(current-time-string)`
+#
+# Make Target:
+# ------------
+# The Makefile provides the following targets to make:
+#   $ make           compile and link
+#   $ make clean     clean objects and the executable file
+#
+#===========================================================================
+
+include ${1:../Makefile.env}
+
+BUILD_TARGETS = $1
+
+.PHONY : all output clean help
+
+all : ${2:output}
+
+$1 : 
+
+output: $(BUILD_TARGETS)
+	mkdir -p output
+
+clean:
+	@(for i in ${SUBDIRS}; do (cd $$i; pwd; ${MAKE} $@); done)
+	rm -rf $(BUILD_TARGETS) *.o output
