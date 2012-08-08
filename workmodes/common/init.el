@@ -8,7 +8,7 @@
 
 ;; 自动备份目录
 (setq make-backup-files t)
-(setq backup-directory-alist '(("."."~/.emacs.d/emacs_saves")))
+(setq backup-directory-alist '(("."."~/.emacs.d/emacs-saves")))
 
 ;; 自定义加载路径
 (setq load-path (cons

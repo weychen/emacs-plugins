@@ -1,4 +1,4 @@
-#name : head.multiple_cpp-src
+#name : head.multiple_cpp-all
 # --
 # Author:  Tan Menglong <tanmenglong@gmail.com>
 # Date:    `(current-time-string)`
@@ -11,19 +11,22 @@
 #
 #===========================================================================
 
-include ${1:../Makefile.env}
+.PHONY : all output clean help
 
-BUILD_TARGETS = $1
-SRC = $(wildcard src/*.cpp)
-OBJ = $(patsubst %.cpp, %.o, $(SRC))
+all : ${2:output}
 
-.PHONY : all clean
-
-all : $1
-
-$1 : $(OBJ)
-   $(LINK) $^ -o $@ $(INC) $(LIB) $(LINKFLAGS)
+output :
+	mkdir -p output
+	make -C src
 
 clean:
-	@(for i in ${SUBDIRS}; do (cd $$i; pwd; ${MAKE} $@); done)
-	rm -rf $(BUILD_TARGETS) *.o output
+	rm -rf output
+	make clean -C src
+
+help:
+	@echo 'Usage: make [TARGET]'
+	@echo 'TARGETS:'
+	@echo '  all       (=make) compile and link.'
+	@echo '  clean     clean objects and the executable file.'
+	@echo '  help      print this message.'
+	@echo

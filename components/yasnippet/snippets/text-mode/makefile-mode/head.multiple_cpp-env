@@ -14,6 +14,11 @@ MAKE = make
 LINK = g++
 LINKFLAGS = -rdynamic
 
-ROOT = ${1:../}
+WORKROOT = ${1:../}
+
 INC = $2
 LIB = $3
+
+%.o : %.cpp
+	$(CXX) $(CXXFLAGS) $(INC) -c -o $@ $<
+
