@@ -1,0 +1,20 @@
+#name : head.multiple_cpp-env
+# --
+# Author:  Tan Menglong <tanmenglong@gmail.com>
+# Date:    `(current-time-string)`
+#
+#===========================================================================
+
+CC = clang
+CFLAGS = -g -Wall -D_REENTRANT -DLINUX -D__VERSION_ID__="\"$(VERSION)\"" -Wformat -Wall -Werror
+CFLAGS_DEBUG = -g -Wall -D_REENTRANT -DLINUX -D__VERSION_ID__="\"$(VERSION)_DEBUG\"" -D_DEBUG
+CFLAGS_TEST = -g -Wall -D_REENTRANT -DLINUX -D__VERSION_ID__="\"$(VERSION)_TEST\"" -D_DEBUG
+MAKE = make
+
+LINK = clang
+LINKFLAGS = -rdynamic
+
+WORKROOT = ../../
+
+%.o : %.c
+	$(CC) $(CFLAGS) $(INC) -c -o $@ $<
