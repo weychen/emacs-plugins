@@ -10,10 +10,10 @@
 (load-file "~/.emacs.d/emacs-plugins/workmodes/cpp/load-outline-mode.el")
 
 ;; cedet
-(load-file "~/.emacs.d/emacs-plugins/workmodes/cpp/load-cedet.el")
+;(load-file "~/.emacs.d/emacs-plugins/workmodes/cpp/load-cedet.el")
 
 ;; ecb
-(load-file "~/.emacs.d/emacs-plugins/workmodes/cpp/load-ecb.el")
+;(load-file "~/.emacs.d/emacs-plugins/workmodes/cpp/load-ecb.el")
 
 ;; coding style
 (load-file "~/.emacs.d/emacs-plugins/workmodes/cpp/load-codingstyle.el")
