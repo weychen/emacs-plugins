@@ -15,7 +15,7 @@
  * $2
  *
  * @file `(file-name-nondirectory (buffer-file-name))`
- * @author crackcell <tanmenglong@gmail.com>
+ * @author Tan Menglong <tanmenglong@gmail.com>
  * @date `(current-time-string)`
  *
  **/
