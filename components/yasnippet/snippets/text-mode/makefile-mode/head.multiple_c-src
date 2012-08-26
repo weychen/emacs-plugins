@@ -27,5 +27,5 @@ all : $(BUILD_TARGETS)
 $(BUILD_TARGETS) : $(OBJ)
 	$(LINK) -o $@ $^ $(LIB)
 
-clean:
+clean :
 	rm -rf $(OBJ) $(BUILD_TARGETS)
