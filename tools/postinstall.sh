@@ -32,3 +32,4 @@ if [ -e ~/.zshrc ]; then
 	echo "source ~/.emacs.d/emacs-plugins/tools/init-shell.sh" >> ~/.zshrc;
 fi
 
+cp ~/.emacs.d/emacs-plugins/emacs ~/.emacs
