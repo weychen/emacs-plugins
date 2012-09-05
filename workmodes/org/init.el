@@ -12,6 +12,7 @@
 (setq org-agenda-files (list "~/repo/bitbucket/crackcell-agenda/gtd.org"
 							 "~/repo/bitbucket/crackcell-agenda/personal.org"
 							 "~/repo/bitbucket/crackcell-agenda/inbox.org"
+							 "~/repo/bitbucket/crackcell-agenda/hobby.org"
 							 "~/repo/bitbucket/crackcell-agenda/periodical.org"
 							 "~/repo/bitbucket/crackcell-agenda/notes.org"
 							 "~/repo/bitbucket/crackcell-agenda/someday.org"))
