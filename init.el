@@ -21,6 +21,8 @@
 									 buffer-file-name))
 						(string="h" (file-name-extension
 									 buffer-file-name))
+						(string="ino" (file-name-extension
+									   buffer-file-name))
 						)
 				(progn
 				  (load-file "~/.emacs.d/emacs-plugins/workmodes/cpp/init.el"))
