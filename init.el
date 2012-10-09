@@ -10,6 +10,7 @@
 				  (load-file "~/.emacs.d/emacs-plugins/workmodes/org/init.el"))
 			      )))
 
+(add-to-list 'auto-mode-alist '("\\.ino\\'" . c++-mode))
 (add-hook 'find-file-hook (lambda()
 			    (if (or (string="cpp" (file-name-extension
 									   buffer-file-name))

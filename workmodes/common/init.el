@@ -47,12 +47,6 @@
 	  browse-url-generic-program "chrome"
 	  browse-url-browser-function gnus-button-url)
 
-;; org
-;;(load-file "~/.emacs.d/emacs-plugins/init/org-settings.el")
-
-;; muse
-;;(load-file "~/.emacs.d/emacs-plugins/init/muse-settings.el")
-
 ;; Line wrap
 ;(setq line-move-visual t)
 ;(visual-line-mode t)

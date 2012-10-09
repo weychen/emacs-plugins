@@ -2,6 +2,8 @@
 ;; setting up ess for R
 ;;
 
+(load-file "~/.emacs.d/emacs-plugins/workmodes/common/init.el") 
+
 ;; 设置缩进风格
 (setq indent-tabs-mode nil)
 (setq default-tab-width 4)
@@ -22,4 +24,3 @@
 (require 'whitespace)
 (setq whitespace-style '(face empty tabs lines-tail trailing))
 (global-whitespace-mode t)
-
