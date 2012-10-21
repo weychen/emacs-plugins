@@ -1,4 +1,4 @@
-#name : head
+#name : head.cunit
 # --
 /* -*- encoding: utf-8; indent-tabs-mode: nil -*- */
 
@@ -19,7 +19,6 @@
  * @date `(current-time-string)`
  *
  **/
- **************************************************************/
 
 #include <stdio.h>
 #include <string.h>
