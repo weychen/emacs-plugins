@@ -3,8 +3,7 @@
 /**
  * $1
  *
- * @param [in] param_name : param_type
- *   param_description
+ * @param [in] param_name : param_description
  * @return
  *   0: sucess 1: failure
  * @author Tan Menglong <tanmenglong@baidu.com>
