@@ -1,0 +1,6 @@
+#name : html.newline
+#contributor : Rick Moynihan <rick@sourcesmouth.co.uk>
+# --
+#+BEGIN_HTML
+<br>
+#+END_HTML

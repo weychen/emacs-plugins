@@ -4,7 +4,7 @@
 #+AUTHOR: Tan Menglong
 #+EMAIL: tanmenglong AT gmail DOT com
 #+DATE: `(current-time-string)`
-#+STYLE: <link rel="stylesheet" type="text/css" href="http://blog.crackcell.com/org-mode/note.css" />
+#+STYLE: <link rel="stylesheet" type="text/css" href="http://blog.crackcell.com/static/org-mode/note.css" />
 
 #+BEGIN_HTML
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
