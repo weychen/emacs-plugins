@@ -7,7 +7,6 @@
  * @return
  *   0: sucess 1: failure
  * @author Tan Menglong <tanmenglong@baidu.com>
- * @date `(current-time-string)`
  */
 ${2:void} ${3:func_name}($4) {
     $6
