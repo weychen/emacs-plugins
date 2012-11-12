@@ -12,7 +12,8 @@
 (setq mac-option-key-is-meta t)
 (setq mac-command-key-is-meta nil)
 (setq mac-command-modifier 'meta)
-(setq mac-option-modifier nil)
+;;(setq mac-option-modifier nil)
+(setq mac-option-modifier 'meta)
 
 (global-set-key (kbd "C-<down>") 'scroll-up)
 (global-set-key (kbd "C-<up>") 'scroll-down)
