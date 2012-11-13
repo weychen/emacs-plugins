@@ -25,7 +25,6 @@
  '(default ((t (:inherit nil :stipple nil :background "black" :foreground "#ffffff" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 125 :width normal :family "Yahei Consolas Hybrid")))))
 
 ;; 初始窗口大小
-;(add-to-list 'default-frame-alist (cons 'width 30))
 (if window-system
 	(set-frame-size (selected-frame) 35 30))
 
