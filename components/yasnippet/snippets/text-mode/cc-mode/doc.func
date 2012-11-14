@@ -4,8 +4,7 @@
  * $1
  *
  * @param [in] param_name : param_description
- * @return int
- * @retval 0: sucess 1: failure
+ * @return 0 for sucess, 1 for failure
  * @see
  * @note
  * @author tanmenglong
