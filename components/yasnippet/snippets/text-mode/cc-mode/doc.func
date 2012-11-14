@@ -8,6 +8,6 @@
  * @retval 0: sucess 1: failure
  * @see
  * @note
- * @author Tan Menglong
+ * @author tanmenglong
  * @date `(current-time-string)`
  */
