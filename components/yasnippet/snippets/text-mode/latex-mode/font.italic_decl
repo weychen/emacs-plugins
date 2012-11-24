@@ -1,0 +1,3 @@
+#name : font.italic_decl
+# --
+\itshape $1

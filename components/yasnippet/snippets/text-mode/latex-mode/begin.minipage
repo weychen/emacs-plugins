@@ -1,0 +1,5 @@
+#name : \begin{minipage} ... \end{minipage}
+# --
+\begin{minipage}{${1:3cm}}
+$0
+\end{minipage}

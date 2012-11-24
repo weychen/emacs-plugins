@@ -1,0 +1,3 @@
+#name : font.bold
+# --
+\textbf{$1}

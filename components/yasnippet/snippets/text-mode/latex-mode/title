@@ -1,0 +1,6 @@
+#name : title
+# --
+\title{${1:untitle}}
+\author{Tan Menglong}
+\date{`(current-time-string)`}
+\maketitle

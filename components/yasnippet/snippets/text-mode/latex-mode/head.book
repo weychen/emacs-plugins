@@ -1,0 +1,15 @@
+#name : head.book
+# --
+\documentclass[a4paper,11pt]{book}
+\begin{document}
+\title{${1:untitle}}
+\author{Tan Menglong}
+\maketitle
+\tableofcontents
+\chapter{ch1}
+this is ch1
+\section{sec1}
+xxx
+\subsection{subsec1}
+$0
+\end{document}

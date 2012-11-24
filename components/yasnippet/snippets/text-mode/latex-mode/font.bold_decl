@@ -1,0 +1,3 @@
+#name : font.bold_decl
+# --
+\bfseries $1

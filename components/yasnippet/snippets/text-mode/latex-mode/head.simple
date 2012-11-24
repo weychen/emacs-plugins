@@ -1,4 +1,4 @@
-#name : head
+#name : head.simple
 # --
 \documentclass[a4paper,12pt]{article}
 \begin{${1:document}}

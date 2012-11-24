@@ -1,0 +1,9 @@
+#name : head.article
+# --
+\documentclass[a4paper,11pt]{article}
+\begin{document}
+\title{${1:untitle}}
+\author{Tan Menglong}
+\maketitle
+$0
+\end{document}

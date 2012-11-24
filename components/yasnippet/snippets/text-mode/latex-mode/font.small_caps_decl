@@ -1,0 +1,3 @@
+#name : font.small_caps_decl
+# --
+\scshape $1
