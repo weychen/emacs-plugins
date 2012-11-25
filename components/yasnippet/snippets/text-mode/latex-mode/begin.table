@@ -1,0 +1,7 @@
+#name : \begin{tabbing} ... \end{tabbing}
+# --
+\begin{tabbing}
+c1 \= c2 \= c3 \\
+\> r2 \> r3 \\
+$0
+\end{tabbing}

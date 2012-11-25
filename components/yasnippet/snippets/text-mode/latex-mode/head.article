@@ -1,9 +1,9 @@
 #name : head.article
 # --
 \documentclass[a4paper,11pt]{article}
+%% set font to support cjk
+\usepackage{fontspec}
+\setmainfont{Microsoft Yahei}
 \begin{document}
-\title{${1:untitle}}
-\author{Tan Menglong}
-\maketitle
 $0
 \end{document}
