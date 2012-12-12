@@ -1,5 +1,5 @@
-#name : \begin{itemsize} ... \end{itemsize}
+#name : \begin{itemize} ... \end{itemize}
 # --
-\begin{itemsize}
+\begin{itemize}
   \item $1
-\end{itemsize}
+\end{itemize}
