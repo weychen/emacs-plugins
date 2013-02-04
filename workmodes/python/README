@@ -1,0 +1,8 @@
+depends:
+1. python-mode
+2. pymacs
+3. jedi
+4. auto-complete
+5. cedet
+6. ecb
+7. rope
