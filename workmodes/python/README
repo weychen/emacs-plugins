@@ -6,3 +6,6 @@ depends:
 5. cedet
 6. ecb
 7. rope
+8. emacs-deferred
+9. emacs-ctable
+10. emacs-epc

@@ -33,7 +33,7 @@
 ;; jedi for auto complete
 (add-to-list 'load-path "~/.emacs.d/emacs-plugins/components/deferred/emacs-deferred/")
 (add-to-list 'load-path "~/.emacs.d/emacs-plugins/components/ctable/emacs-ctable/")
-(load-file "~/.emacs.d/emacs-plugins/components/emacs-epc/epc.el")
+(load-file "~/.emacs.d/emacs-plugins/components/epc/emacs-epc/epc.el")
 
 (add-to-list 'load-path "~/.emacs.d/emacs-plugins/components/jedi/emacs-jedi/")
 (autoload 'jedi:setup "jedi" nil t)
