@@ -4,7 +4,6 @@
  * ${1:description}
  *
  * @author ${2:Tan Menglong <tanmenglong@gmail.com>}
- * @date `(current-time-string)`
  */
 class ${3:ClassName} {
 /* functions for building the class */
