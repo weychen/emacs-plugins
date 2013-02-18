@@ -1,0 +1,5 @@
+#name : image.with_caption
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# --
+#+CAPTION: $1
+[[$2]]
