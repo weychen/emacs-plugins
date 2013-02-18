@@ -18,12 +18,14 @@
 (setq inhibit-startup-message t)
 
 (ecb-layout-define "crackcell-layout" left nil
+				   (setq ecb-fix-window-size t)
 				   (ecb-set-sources-buffer)
-				   (ecb-split-ver 0.3 t)
+				   (ecb-split-ver 0.2 t)
 				   (other-window 1)
 				   (ecb-set-methods-buffer)
-				   (setq ecb-fix-window-size t)
-				   (setq ecb-windows-width 0.07)
+				   (setq ecb-windows-width 0.03)
 				   (select-window (next-window)))
 (setq ecb-layout-name "crackcell-layout")
 ;(setq ecb-auto-activate t)
+(setq ecb-activation-selects-ecb-frame-if-already-active t)
+(setq ecb-tree-indent 2)
