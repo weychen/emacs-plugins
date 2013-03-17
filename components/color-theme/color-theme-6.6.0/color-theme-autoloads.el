@@ -15,7 +15,7 @@
 ;;; Generated autoloads follow (made by autoload.el).
 
 ;;;### (autoloads nil nil ("themes/color-theme-example.el" "themes/color-theme-library.el")
-;;;;;;  (20752 55371 621107))
+;;;;;;  (20801 20603 173330 0))
 
 ;;;***
 
@@ -23,7 +23,7 @@
 ;;;;;;  color-theme-compare color-theme-make-snapshot color-theme-analyze-defun
 ;;;;;;  color-theme-print color-theme-install-at-point-for-current-frame
 ;;;;;;  color-theme-install-at-mouse color-theme-describe color-theme-select)
-;;;;;;  "color-theme" "color-theme.el" (20752 53823))
+;;;;;;  "color-theme" "color-theme.el" (20801 20551 0 0))
 ;;; Generated autoloads from color-theme.el
 
 (autoload 'color-theme-select "color-theme" "\
