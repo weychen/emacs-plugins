@@ -1,5 +1,9 @@
 (require 'org)
 
+; org-confluence
+(add-to-list 'load-path "~/.emacs.d/emacs-plugins/components/org-confluence/")
+(require 'org-confluence)
+
 ; use htmlize to highlight code block
 (add-to-list 'load-path "~/.emacs.d/emacs-plugins/components/htmlize/")
 
@@ -9,13 +13,13 @@
 (setq org-log-done t)
 (add-hook 'org-mode-hook (lambda () (setq truncate-lines nil)))
 
-(setq org-agenda-files (list "~/repo/bitbucket/crackcell-agenda/gtd.org"
-							 "~/repo/bitbucket/crackcell-agenda/personal.org"
-							 "~/repo/bitbucket/crackcell-agenda/inbox.org"
-							 "~/repo/bitbucket/crackcell-agenda/hobby.org"
-							 "~/repo/bitbucket/crackcell-agenda/periodical.org"
-							 "~/repo/bitbucket/crackcell-agenda/notes.org"
-							 "~/repo/bitbucket/crackcell-agenda/someday.org"))
+(setq org-agenda-files (list "~/agenda/gtd.org"
+							 "~/agenda/personal.org"
+							 "~/agenda/inbox.org"
+							 "~/agenda/hobby.org"
+							 "~/agenda/periodical.org"
+							 "~/agenda/notes.org"
+							 "~/agenda/someday.org"))
 (setq org-footnote-auto-adjust t)
 
 (setq org-refile-targets

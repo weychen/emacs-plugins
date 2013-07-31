@@ -7,7 +7,7 @@
 #+STYLE: <link rel="stylesheet" type="text/css" href="http://blog.crackcell.com/static/org-mode/org-mode.css" />
 
 #+BEGIN_HTML
-<script type="text/javascript" src="http://blog.crackcell.com/static/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 #+END_HTML
 
 $2

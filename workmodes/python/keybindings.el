@@ -29,7 +29,7 @@
 
 (local-set-key [(control return)] 'semantic-ia-complete-symbol)
 
-(local-set-key "." 'jedi-complete-semantic-self-insert)
+;(local-set-key "." 'jedi-complete-semantic-self-insert)
 
 ;; Indent or complete
 (local-set-key  "\t" 'py-indent-or-complete)
