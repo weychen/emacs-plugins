@@ -3,8 +3,8 @@
 # --
 %%%-*- encoding: utf-8; indent-tabs-mode: nil -*-
 %%%-------------------------------------------------------------------
-%%% @author Tan Menglong <tanmenglong@gmail.com>
-%%% @copyright (c) `(format-time-string "%Y")`, Tan Menglong
+%%% @author crackcell <tanmenglong@gmail.com>
+%%% @copyright (c) `(format-time-string "%Y")`, crackcell
 %%% @doc
 %%% ${1:file desc}
 %%% @end
@@ -12,7 +12,7 @@
 %%%-------------------------------------------------------------------
 
 -module(`(file-name-sans-extension (file-name-nondirectory (buffer-file-name)))`).
--author("crackcell").
+-author('tanmenglong@gmail.com').
 -export([${2:start/0}]).
 
 %%%===================================================================

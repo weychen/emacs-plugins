@@ -11,7 +11,7 @@
 %%%-------------------------------------------------------------------
 
 -module(`(file-name-sans-extension (file-name-nondirectory (buffer-file-name)))`).
--author("crackcell").
+-author('tanmenglong@gmail.com').
 -behaviour(gen_server).
 
 %% API

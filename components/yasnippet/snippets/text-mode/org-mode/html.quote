@@ -1,8 +1,0 @@
-#name : html.quote
-#contributor : Tan Menglong <tanmenglong@gmail.com>
-# --
-#+BEGIN_HTML
-<quote>
-$0
-</quote>
-#+END_HTML

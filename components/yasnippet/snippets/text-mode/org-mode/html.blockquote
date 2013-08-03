@@ -1,0 +1,9 @@
+#name : html.blockquote
+#contributor : Tan Menglong <tanmenglong@gmail.com>
+# --
+#+BEGIN_HTML
+<blockquote>
+<p>$1</p>
+<small>-- ${2:who}</small>
+</blockquote>
+#+END_HTML
