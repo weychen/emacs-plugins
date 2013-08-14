@@ -69,6 +69,7 @@ code_change(_OldVsn, State, _Extra) ->
 %%%===================================================================
 %%% Unit tests
 %%%===================================================================
+
 -ifdef(TEST).
 -include_lib("eunit/include/eunit.hrl").
 -endif.
