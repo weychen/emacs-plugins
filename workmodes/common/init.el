@@ -2,6 +2,7 @@
 (setq indent-tabs-mode nil)
 (setq default-tab-width 4)
 (setq tab-width 4)
+(setq tab-stop-list ())
 
 ;; fix meta key in macosx
 ;(set-keyboard-coding-system nil)
@@ -12,7 +13,7 @@
 
 ;; 自定义加载路径
 (setq load-path (cons
-				 "~/.emacs.d/emacs-plugins/workmodes/commons" load-path))
+                 "~/.emacs.d/emacs-plugins/workmodes/commons" load-path))
 
 ;; 设置默认 用户名 和 email
 (setq user-full-name "Tan Menglong")
@@ -48,8 +49,8 @@
 
 ;; setting up default browser when clicking on a link
 (setq gnus-button-url 'browse-url-generic
-	  browse-url-generic-program "chrome"
-	  browse-url-browser-function gnus-button-url)
+      browse-url-generic-program "chrome"
+      browse-url-browser-function gnus-button-url)
 
 ;; Line wrap
 ;(setq line-move-visual t)

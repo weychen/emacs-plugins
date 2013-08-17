@@ -1,9 +1,12 @@
-(setq indent-tabs-mode t)
+;; 设置缩进风格
+(setq indent-tabs-mode nil)
 (setq default-tab-width 4)
 (setq tab-width 4)
 (setq tab-stop-list ())
 (loop for x downfrom 40 to 1 do
       (setq tab-stop-list (cons (* x 4) tab-stop-list)))
+(defvaralias 'c-basic-offset 'tab-width)
+(defvaralias 'cperl-indent-level 'tab-width)
 
 (defalias 'perl-mode 'cperl-mode)
 
@@ -31,7 +34,7 @@
 (define-key cm-map "b" 'outline-backward-same-level)       ; Backward - same level
 
 (add-hook 'outline-minor-mode-hook
-		  (lambda () (local-set-key "\C-co" cm-map)))
+          (lambda () (local-set-key "\C-co" cm-map)))
 
 (defmacro join (join-char &rest others) `(mapconcat 'identity ',others ,join-char))
 (setq my-cperl-outline-regexp
@@ -80,17 +83,18 @@
 
 ;; indenting
 (setq cperl-indent-level 4
-	  cperl-close-paren-offset -4
-	  cperl-continued-statement-offset 4
-	  cperl-indent-parens-as-block t
-	  cperl-tab-always-indent nil)
+      cperl-close-paren-offset -4
+      cperl-continued-statement-offset 4
+      cperl-indent-parens-as-block t
+      cperl-tab-always-indent nil)
 
  ;;load cperl, then work around indent issue
 (require 'cperl-mode)
 (defun cperl-backward-to-start-of-continued-exp (lim)
   (goto-char containing-sexp)
   (let ((sexp-start (following-char)))
-	(forward-char)
-	(skip-chars-forward " \t\n")
-	(if (memq sexp-start (append "([" nil)) ; this hack is for continued statements inside parentheses
-		(backward-char cperl-continued-statement-offset))))
+    (forward-char)
+    (skip-chars-forward " \t\n")
+    (if (memq sexp-start (append "([" nil)) ; this hack is for continued statements inside parentheses
+        (backward-char cperl-continued-statement-offset))))
+
