@@ -70,3 +70,12 @@
 				(progn
 				  (load-file "~/.emacs.d/emacs-plugins/workmodes/markdown/init.el"))
 			      )))
+
+(add-hook 'find-file-hook (lambda()
+			    (if (or (string="html" (file-name-extension
+									   buffer-file-name))
+						(string="htm" (file-name-extension
+									   buffer-file-name)))
+				(progn
+				  (load-file "~/.emacs.d/emacs-plugins/workmodes/html/init.el"))
+			      )))
