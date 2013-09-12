@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 ##! @description: usage
 ##! @version: 1
 ##! @author: crackcell <tanmenglong@gmail.com>
