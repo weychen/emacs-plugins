@@ -5,7 +5,7 @@
 <div class="latex_formula">
 \[
 \begin{eqnarray}
-y &=& x\\
+y &=& x\\\
   &=& z
 \end{eqnarray}
 \]
