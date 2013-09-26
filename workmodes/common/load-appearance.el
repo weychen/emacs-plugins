@@ -26,7 +26,7 @@
 
 ;; 初始窗口大小
 (if window-system
-	(set-frame-size (selected-frame) 35 30))
+    (set-frame-size (selected-frame) 35 30))
 
 ;; 光标颜色
 (set-cursor-color "red")
@@ -44,10 +44,16 @@
 
 ;; 颜色风格
 (setq load-path (cons
-				 "~/.emacs.d/emacs-plugins/components/color-theme/color-theme-6.6.0" load-path))
+                 "~/.emacs.d/emacs-plugins/components/color-theme/color-theme-6.6.0" load-path))
 (require 'color-theme)
 (load-file "~/.emacs.d/emacs-plugins/components/color-theme/color-theme-6.6.0/themes/color-theme-library.el")
 (load-file "~/.emacs.d/emacs-plugins/components/color-theme/my-color-themes.el")
+
+;(setq load-path (cons
+;                 "~/.emacs.d/emacs-plugins/components/color-theme-solarized" load-path))
+;(require 'color-theme-solarized)
+;(color-theme-solarized-dark)
+;(color-theme-solarized-light)
 
 ;(color-theme-crackcell-light1)
 ;(color-theme-blackboard)
