@@ -22,25 +22,41 @@
 (add-hook 'org-mode-hook (lambda () (setq truncate-lines nil)))
 
 (setq org-agenda-files (list "~/agenda/gtd.org"
-							 "~/agenda/personal.org"
-							 "~/agenda/inbox.org"
-							 "~/agenda/hobby.org"
-							 "~/agenda/periodical.org"
-							 "~/agenda/notes.org"
-							 "~/agenda/someday.org"))
+                             "~/agenda/personal.org"
+                             "~/agenda/inbox.org"
+                             "~/agenda/hobby.org"
+                             "~/agenda/periodical.org"
+                             "~/agenda/notes.org"
+                             "~/agenda/someday.org"))
 (setq org-footnote-auto-adjust t)
 
 (setq org-refile-targets
       '(
-		("gtd.org" :maxlevel . 2)
-		("someday.org" :level . 2)
-		("inbox.org" :level . 2)
-		(nil . (:todo . "Projects"))
-		)
+        ("gtd.org" :maxlevel . 2)
+        ("someday.org" :level . 2)
+        ("inbox.org" :level . 2)
+        (nil . (:todo . "Projects"))
+        )
 )
 
 (add-hook 'org-agenda-mode-hook 'hl-line-mode)
 
 (load-file "~/.emacs.d/emacs-plugins/workmodes/org/keybindings.el")
-(load-file "~/.emacs.d/emacs-plugins/workmodes/muse/init.el")
-(load-file "~/.emacs.d/emacs-plugins/workmodes/markdown/init.el")
+;(load-file "~/.emacs.d/emacs-plugins/workmodes/muse/init.el")
+;(load-file "~/.emacs.d/emacs-plugins/workmodes/markdown/init.el")
+
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((R . t)
+   (ditaa . t)
+   (dot . t)
+   (emacs-lisp . t)
+   (mscgen . t) ; this is the entry to activate mscgen
+   (latex . t)
+   (perl . t)
+   (python . t)
+   (ruby . t)
+   (screen . nil)
+   (sh . t)
+   (sql . nil)
+   (sqlite . nil)))

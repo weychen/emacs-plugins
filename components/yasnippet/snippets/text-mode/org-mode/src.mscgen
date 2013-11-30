@@ -1,0 +1,8 @@
+#name : src.mscgen
+#contributor : crackcell <tanmenglong@gmail.com>
+# --
+#+BEGIN_SRC mscgen :file $1$>
+msc {
+  $0$>
+}
+#+END_SRC$>

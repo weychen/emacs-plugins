@@ -1,0 +1,8 @@
+#name : src.grapviz
+#contributor : crackcell <tanmenglong@gmail.com>
+# --
+#+BEGIN_SRC dot :file $1.png
+digraph $2 {
+  $0
+}
+#+END_SRC$>

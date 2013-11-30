@@ -1,9 +1,3 @@
-;; 缩进风格
-(setq indent-tabs-mode nil)
-(setq default-tab-width 4)
-(setq tab-width 4)
-(setq tab-stop-list ())
-
 ;; fix meta key in macosx
 ;(set-keyboard-coding-system nil)
 
@@ -59,3 +53,12 @@
 
 ; remove '\' in line wrap
 (set-display-table-slot standard-display-table 'wrap ?\ )
+
+;; 缩进风格
+(setq-default indent-tabs-mode nil)
+(setq indent-tabs-mode nil)
+(setq default-tab-width 4)
+(setq tab-width 4)
+(setq tab-stop-list ())
+(loop for x downfrom 40 to 1 do
+      (setq tab-stop-list (cons (* x 4) tab-stop-list)))
