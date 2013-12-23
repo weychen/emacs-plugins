@@ -1,5 +1,7 @@
 (add-to-list 'load-path "~/.emacs.d/emacs-plugins/workmodes/cpp")
 
+(load-file "~/.emacs.d/emacs-plugins/plugins/show_whitechar.el")
+
 ;; gccsense
 ;(load-file "~/.emacs.d/emacs-plugins/c-settings/load-gccsense.el")
 

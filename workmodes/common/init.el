@@ -37,10 +37,6 @@
 ;; keybindings
 (load-file "~/.emacs.d/emacs-plugins/workmodes/common/keybindings.el")
 
-;; show white char
-(load-file "~/.emacs.d/emacs-plugins/components/highlight-chars.el")
-(hc-toggle-highlight-tabs)
-
 ;; setting up default browser when clicking on a link
 (setq gnus-button-url 'browse-url-generic
       browse-url-generic-program "chrome"

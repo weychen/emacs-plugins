@@ -86,3 +86,10 @@
                 (progn
                   (load-file "~/.emacs.d/emacs-plugins/workmodes/msc/init.el"))
                   )))
+
+(add-hook 'find-file-hook (lambda()
+                (if (string="go" (file-name-extension
+                                  buffer-file-name))
+                (progn
+                  (load-file "~/.emacs.d/emacs-plugins/workmodes/go/init.el"))
+                )))

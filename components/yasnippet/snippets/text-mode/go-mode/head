@@ -1,6 +1,6 @@
-#name : doc.file
+#name : head
 # --
-/* -*- encoding: utf-8; indent-tabs-mode: nil -*- */
+/* -*- encoding: utf-8; indent-tabs-mode: t -*- */
 
 /***************************************************************
  *
@@ -12,14 +12,18 @@
  **************************************************************/
 
 /**
- * $2
+ * $1
  *
  * @file `(file-name-nondirectory (buffer-file-name))`
- * @author Tan Menglong <tanmenglong@gmail.com>
+ * @author Menglong TAN <tanmenglong@gmail.com>
  * @date `(current-time-string)`
  *
  **/
 
-$3
+package ${2:main}
 
-/* vim: set expandtab shiftwidth=2 tabstop=2: */
+import "${3:fmt}"
+
+func main() {
+  $4
+}
