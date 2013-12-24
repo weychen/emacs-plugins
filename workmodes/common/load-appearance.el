@@ -71,3 +71,5 @@
 ;(global-hl-line-mode)
 ; 高亮背景颜色
 ;(set-face-background 'hl-line "#dddddd")
+
+(setq show-trailing-whitespace t)
