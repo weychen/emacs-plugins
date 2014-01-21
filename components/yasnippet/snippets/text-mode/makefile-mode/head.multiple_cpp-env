@@ -6,9 +6,8 @@
 #===========================================================================
 
 CXX = g++
-CXXFLAGS = -g -Wall -D_REENTRANT -DLINUX -D__VERSION_ID__="\"$(VERSION)\"" -Wreorder -Wswitch -Wpointer-arith -Wconversion -Wformat -Wall -Werror
-CXXFLAGS_DEBUG = -g -Wall -D_REENTRANT -DLINUX -D__VERSION_ID__="\"$(VERSION)_DEBUG\"" -D_DEBUG
-CXXFLAGS_TEST = -g -Wall -D_REENTRANT -DLINUX -D__VERSION_ID__="\"$(VERSION)_TEST\"" -D_DEBUG
+CXXFLAGS = -g -Wall -Werror -D_REENTRANT -DLINUX -D__VERSION_ID__="\"$(VERSION)\""
+CXXFLAGS_DEBUG = -g -Wall -Werror -D_REENTRANT -DLINUX -D__VERSION_ID__="\"$(VERSION)_DEBUG\"" -D_DEBUG -fstack-protector-all
 MAKE = make
 
 LINK = g++
@@ -22,3 +21,5 @@ LIB = $3
 %.o : %.cpp
 	$(CXX) $(CXXFLAGS) $(INC) -c -o $@ $<
 
+%_d.o : %.cpp
+	$(CXX) $(CXXFLAGS_DEBUG) $(INC) -c -o $@ $<
