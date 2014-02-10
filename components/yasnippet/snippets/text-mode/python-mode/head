@@ -2,9 +2,14 @@
 # --
 #!/usr/bin/env python
 # -*- encoding: utf-8; indent-tabs-mode: nil -*-
-#
-# Copyright `(format-time-string "%Y")` Menglong TAN <tanmenglong@gmail.com>
-#
+"""
+    `(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`
+    `(make-string (length (file-name-nondirectory (file-name-sans-extension (buffer-file-name)))) ?~)`
+
+    ${1:desc}
+
+    :copyright: (c) `(format-time-string "%Y")` Menglong TAN.
+"""
 
 if __name__ == "__main__":
    pass

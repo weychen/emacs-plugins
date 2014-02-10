@@ -4,6 +4,8 @@
 (setq whitespace-style '(face empty tabs lines-tail trailing))
 (global-whitespace-mode t)
 
+;; yanippet
+(load-file "~/.emacs.d/emacs-plugins/workmodes/common/load-yas.el")
 
 (add-to-list 'load-path "/home/crackcell/.emacs.d/emacs-plugins/workmodes/python/emacs-deferred")
 (add-to-list 'load-path "/home/crackcell/.emacs.d/emacs-plugins/workmodes/python/emacs-ctable")
