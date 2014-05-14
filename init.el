@@ -10,6 +10,13 @@
                   (load-file "~/.emacs.d/emacs-plugins/workmodes/org/init.el"))
                   )))
 
+(add-hook 'find-file-hook (lambda()
+                (if (string="exs" (file-name-extension
+                           buffer-file-name))
+                (progn
+                  (load-file "~/.emacs.d/emacs-plugins/workmodes/elixir/init.el"))
+                  )))
+
 (add-to-list 'auto-mode-alist '("\\.ino\\'" . c++-mode))
 (add-hook 'find-file-hook (lambda()
                 (if (or (string="cpp" (file-name-extension
