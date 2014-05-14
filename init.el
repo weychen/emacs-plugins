@@ -36,12 +36,16 @@
                   (load-file "~/.emacs.d/emacs-plugins/workmodes/cpp/init.el"))
                   )))
 
-(add-hook 'find-file-hook (lambda()
-                (if (string="pl" (file-name-extension
+(add-hook 'find-file-hook
+          (lambda()
+            (if (or (string="pl" (file-name-extension
                                   buffer-file-name))
+                    (string="t" (file-name-extension
+                                 buffer-file-name))
+                    )
                 (progn
                   (load-file "~/.emacs.d/emacs-plugins/workmodes/perl/init.el"))
-                  )))
+              )))
 
 (add-hook 'find-file-hook (lambda()
                 (if (string="py" (file-name-extension
