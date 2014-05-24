@@ -1,0 +1,20 @@
+#name : module.genserver
+#contributor : crackcell <tanmenglong@gmail.com>
+# --
+defmodule ${1:Server} do
+  use GenServer.Behaviour
+
+  def init(_args) do
+    state = {}
+    {:ok, state}
+  end
+
+  def handle_call(_request, _from, state) do
+    {:ok. state}
+  end
+
+  def handle_cast(_request, _from, state) do
+    {:ok, state}
+  end
+
+end

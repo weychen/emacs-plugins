@@ -1,0 +1,16 @@
+#name : module.supervisor
+#contributor : crackcell <tanmenglong@gmail.com>
+# --
+defmodule ${1:Supervisor} do
+  use Supervisor.Behaviour
+
+  def start_link(args) do
+    :supervisor.start_link(__MODULE__, args)
+  end
+
+  def init(args) do
+    children = [ worker(WorkerModule1, [args]) ]
+    supervise(chiildren, strategy: :one_for_one)
+  end
+
+end
