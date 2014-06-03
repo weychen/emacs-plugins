@@ -11,11 +11,13 @@
                   )))
 
 (add-hook 'find-file-hook (lambda()
-                (if (string="exs" (file-name-extension
-                           buffer-file-name))
-                (progn
-                  (load-file "~/.emacs.d/emacs-plugins/workmodes/elixir/init.el"))
-                  )))
+                            (if (or (string="exs" (file-name-extension
+                                                   buffer-file-name))
+                                    (string="ex" (file-name-extension
+                                                  buffer-file-name)))
+                                (progn
+                                  (load-file "~/.emacs.d/emacs-plugins/workmodes/elixir/init.el"))
+                              )))
 
 (add-to-list 'auto-mode-alist '("\\.ino\\'" . c++-mode))
 (add-hook 'find-file-hook (lambda()
