@@ -21,13 +21,13 @@
 (setq org-log-done t)
 (add-hook 'org-mode-hook (lambda () (setq truncate-lines nil)))
 
-(setq org-agenda-files (list "~/agenda/gtd.org"
-                             "~/agenda/personal.org"
-                             "~/agenda/inbox.org"
-                             "~/agenda/hobby.org"
-                             "~/agenda/periodical.org"
-                             "~/agenda/notes.org"
-                             "~/agenda/someday.org"))
+(setq org-agenda-files (list "~/repo/github/crackcell-agenda/gtd.org"
+                             "~/repo/github/crackcell-agenda/personal.org"
+                             "~/repo/github/crackcell-agenda/inbox.org"
+                             "~/repo/github/crackcell-agenda/hobby.org"
+                             "~/repo/github/crackcell-agenda/periodical.org"
+                             "~/repo/github/crackcell-agenda/notes.org"
+                             "~/repo/github/crackcell-agenda/someday.org"))
 (setq org-footnote-auto-adjust t)
 
 (setq org-refile-targets
