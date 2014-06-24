@@ -1,6 +1,7 @@
 # name : head
 # contributor : Tan Menglong <tanmenglong@gmail.com>
 # --
+#' -*- encoding: utf-8; indent-tabs-mode: nil -*-
 #'
 #' Copyright (c) `(format-time-string "%Y")`, Menglong Tan <tanmenglong@gmail.com>
 #'

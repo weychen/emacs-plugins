@@ -6,8 +6,8 @@
 
 ;; 设置缩进风格
 (setq indent-tabs-mode nil)
-(setq default-tab-width 4)
-(setq tab-width 4)
+(setq default-tab-width 2)
+(setq tab-width 2)
 (setq tab-stop-list ())
 
 (add-to-list 'load-path "~/.emacs.d/emacs-plugins/workmodes/r/")
