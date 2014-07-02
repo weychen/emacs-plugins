@@ -1,21 +1,15 @@
-
 ;; 改变每行超出80个字符部分的颜色
 (require 'whitespace)
 (setq whitespace-style '(face empty tabs lines-tail trailing))
 (global-whitespace-mode t)
 
-<<<<<<< HEAD
 ;; yanippet
 (load-file "~/.emacs.d/emacs-plugins/workmodes/common/load-yas.el")
 
-(add-to-list 'load-path "/home/crackcell/.emacs.d/emacs-plugins/workmodes/python/emacs-deferred")
-(add-to-list 'load-path "/home/crackcell/.emacs.d/emacs-plugins/workmodes/python/emacs-ctable")
-(add-to-list 'load-path "/home/crackcell/.emacs.d/emacs-plugins/workmodes/python/emacs-epc")
-=======
 (add-to-list 'load-path "~/.emacs.d/emacs-plugins/workmodes/python/emacs-deferred")
 (add-to-list 'load-path "~/.emacs.d/emacs-plugins/workmodes/python/emacs-ctable")
 (add-to-list 'load-path "~/.emacs.d/emacs-plugins/workmodes/python/emacs-epc")
->>>>>>> 62390472c73c180ff4b208a7b5d3c0e4b8cb3537
+
 (require 'epc)
 
 (add-to-list 'load-path "~/.emacs.d/emacs-plugins/workmodes/python/emacs-jedi")
