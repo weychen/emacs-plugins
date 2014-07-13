@@ -1,11 +1,11 @@
 (add-to-list 'load-path "~/.emacs.d/emacs-plugins/workmodes/go")
 
 ;; 设置缩进风格
-;(customize-variable (quote tab-stop-list))
-;(setq-default indent-tabs-mode t)
-;(setq indent-tabs-mode t)
-;(setq default-tab-width 2)
-;(setq tab-width 2)
+(customize-variable (quote tab-stop-list))
+(setq-default indent-tabs-mode t)
+(setq indent-tabs-mode t)
+(setq default-tab-width 2)
+(setq tab-width 2)
 ;(setq tab-stop-list ())
 
 ;(load-file "~/.emacs.d/emacs-plugins/workmodes/go/go-mode.el")

@@ -64,7 +64,7 @@ Suitable for inclusion in `c-offsets-alist'."
 (defconst crackcell-c-style
   `((c-recognize-knr-p . nil)
     (c-enable-xemacs-performance-kludge-p . t) ; speed up indentation in XEmacs
-    (c-basic-offset . 4) ;; 基本的缩进数量：4个空格
+    (c-basic-offset . 2) ;; 基本的缩进数量：2个空格
     (indent-tabs-mode . nil)
     (c-comment-only-line-offset . 0)
     (c-hanging-braces-alist . ((defun-open after)
@@ -121,7 +121,7 @@ Suitable for inclusion in `c-offsets-alist'."
                         (statement-case-intro . +) ; case w/o {
                         (access-label . /)
                         (innamespace . 0) ; namespace标签下的缩进尺寸
-						)))
+                        )))
   "Crackcell C/C++ Programming Style")
 
 (defun crackcell-set-c-style ()
