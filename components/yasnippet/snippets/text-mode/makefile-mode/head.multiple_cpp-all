@@ -18,12 +18,12 @@ include Makefile.env
 all : ${2:output}
 
 output :
-	mkdir -p output
-	make -C src
+	$(MAKE) -p output
+	$(MAKE) -C src
 
 clean :
 	rm -rf output
-	make clean -C src
+	$(MAKE) clean -C src
 
 help :
 	@echo 'Usage: make [TARGET]'
