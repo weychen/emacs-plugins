@@ -53,11 +53,11 @@
 ;; 缩进风格
 (setq-default indent-tabs-mode nil)
 (setq indent-tabs-mode nil)
-(setq default-tab-width 4)
-(setq tab-width 4)
+(setq default-tab-width 2)
+(setq tab-width 2)
 (setq tab-stop-list ())
 (loop for x downfrom 40 to 1 do
-      (setq tab-stop-list (cons (* x 4) tab-stop-list)))
+      (setq tab-stop-list (cons (* x 2) tab-stop-list)))
 
 ;; resolve ctrl+space conflict
 (global-unset-key (kbd "C-SPC"))

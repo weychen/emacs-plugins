@@ -22,12 +22,13 @@
   ;; If you edit it by hand, you could mess it up, so be careful.
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :foreground "#ffffff" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 110 :width normal :family "Terminus")))))
+ '(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 105 :width normal :family "Yahei Consolas Hybrid")))))
+;; '(default ((t (:inherit nil :stipple nil :foreground "#ffffff" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 110 :width normal :family "Yahei Consolas Hybrid")))))
 ;; '(default ((t (:inherit nil :stipple nil :background "black" :foreground "#ffffff" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 110 :width normal :family "Yahei Consolas Hybrid")))))
 
 ;; 初始窗口大小
 (if window-system
-    (set-frame-size (selected-frame) 35 30))
+    (set-frame-size (selected-frame) 120 40))
 
 ;; 光标颜色
 (set-cursor-color "red")
@@ -57,7 +58,7 @@
 ;(color-theme-solarized-light)
 
 ;(color-theme-crackcell-light1)
-;(color-theme-blackboard)
+(color-theme-blackboard)
 
 ;; 开启行号
 (require 'linum)

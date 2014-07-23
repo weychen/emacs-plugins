@@ -1,3 +1,5 @@
+(require 'auto-complete-clang)
+
 (defun ac-complete-semantic-self-insert (arg)
   (interactive "p")
   (self-insert-command arg)
@@ -7,12 +9,12 @@
 (defun c-indent-or-complete ()
   (interactive)
   (if (string-match "[a-zA-Z0-9]" (string (preceding-char)))
-	  (ac-start))
+      (ac-start))
   (if (or
-	   (string= "." (string (preceding-char)))
-	   (string= ">" (string (preceding-char))))
-	  (ac-complete-clang)
-	(indent-for-tab-command)))
+       (string= "." (string (preceding-char)))
+       (string= ">" (string (preceding-char))))
+      (ac-complete-clang)
+    (indent-for-tab-command)))
 
 ;; Semantic functions.
 (local-set-key [f9] 'ecb-activate)                           ; 启动ecb
@@ -39,5 +41,5 @@
 ;; semantic-symref时自动回答y
 (defadvice semantic-symref (around stfu activate)
   (flet ((yes-or-no-p (&rest args) t)
-		 (y-or-n-p (&rest args) t))
-	ad-do-it))
+         (y-or-n-p (&rest args) t))
+    ad-do-it))

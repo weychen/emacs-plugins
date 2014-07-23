@@ -2,8 +2,8 @@
 
 ;; Copyright (C) 2005-2011 Free Software Foundation, Inc.
 
-;; Author: Menglong TAN <crackcell@crackcell-c6100.local>
-;; Created: 2013-12-22 22:58:24+0800
+;; Author: Menglong TAN <crackcell@crackcell-x230>
+;; Created: 2014-07-14 12:02:59+0800
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 
