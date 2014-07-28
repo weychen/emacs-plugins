@@ -58,7 +58,7 @@
 ;(color-theme-solarized-light)
 
 ;(color-theme-crackcell-light1)
-(color-theme-blackboard)
+;(color-theme-blackboard)
 
 ;; 开启行号
 (require 'linum)

@@ -6,8 +6,8 @@
 #===========================================================================
 
 CXX = g++
-CXXFLAGS = -g -Wall -Werror -D_REENTRANT -DLINUX -D__VERSION_ID__="\"$(VERSION)\""
-CXXFLAGS_DEBUG = -g -Wall -Werror -D_REENTRANT -DLINUX -D__VERSION_ID__="\"$(VERSION)_DEBUG\"" -D_DEBUG -fstack-protector-all
+CXXFLAGS = -g -Wall -Werror -D_REENTRANT -DLINUX -D__VERSION_ID__="\"$(VERSION)\"" -D__MODULE__="\"$(MODULE)\""
+CXXFLAGS_DEBUG = -g -Wall -Werror -D_REENTRANT -DLINUX -D__VERSION_ID__="\"$(VERSION)_DEBUG\"" -D__MODULE__="\"$(MODULE)\"" -D_DEBUG -fstack-protector-all
 MAKE = make
 
 LINK = g++
