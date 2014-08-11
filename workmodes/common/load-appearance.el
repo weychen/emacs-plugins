@@ -46,13 +46,13 @@
 
 ;; 颜色风格
 (setq load-path (cons
-                 "~/.emacs.d/emacs-plugins/components/color-theme/color-theme-6.6.0" load-path))
+                 "~/.emacs.d/emacs-plugins/site-lisp/color-theme/color-theme-6.6.0" load-path))
 (require 'color-theme)
-(load-file "~/.emacs.d/emacs-plugins/components/color-theme/color-theme-6.6.0/themes/color-theme-library.el")
-(load-file "~/.emacs.d/emacs-plugins/components/color-theme/my-color-themes.el")
+(load-file "~/.emacs.d/emacs-plugins/site-lisp/color-theme/color-theme-6.6.0/themes/color-theme-library.el")
+(load-file "~/.emacs.d/emacs-plugins/site-lisp/color-theme/my-color-themes.el")
 
 ;(setq load-path (cons
-;                 "~/.emacs.d/emacs-plugins/components/color-theme-solarized" load-path))
+;                 "~/.emacs.d/emacs-plugins/site-lisp/color-theme-solarized" load-path))
 ;(require 'color-theme-solarized)
 ;(color-theme-solarized-dark)
 ;(color-theme-solarized-light)

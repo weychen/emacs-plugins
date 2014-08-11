@@ -1,4 +1,4 @@
-(add-to-list 'load-path "~/.emacs.d/emacs-plugins/components/ecb/ecb-2.40/")
+(add-to-list 'load-path "~/.emacs.d/emacs-plugins/site-lisp/ecb/ecb-2.40/")
 
 ;; 解决Cannot open load file: semantic-ctxt
 ;(require 'semantic/analyze)

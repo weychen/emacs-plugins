@@ -1,7 +1,7 @@
 (add-to-list 'load-path
-			 "~/.emacs.d/emacs-plugins/components/cedet/cedet-1.1/")
+			 "~/.emacs.d/emacs-plugins/site-lisp/cedet/cedet-1.1/")
 (load-file
-             "~/.emacs.d/emacs-plugins/components/cedet/cedet-1.1/common/cedet.el")
+             "~/.emacs.d/emacs-plugins/site-lisp/cedet/cedet-1.1/common/cedet.el")
 
 ;;
 ;; cedet

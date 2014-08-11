@@ -1,5 +1,5 @@
 (setq load-path (cons
-				 "~/.emacs.d/emacs-plugins/components/muse/muse/lisp" load-path))
+				 "~/.emacs.d/emacs-plugins/site-lisp/muse/muse/lisp" load-path))
 
 ;; 加载org-mode
 (require 'org)

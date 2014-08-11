@@ -9,11 +9,11 @@
 (require 'org)
 
 ; org-confluence
-(add-to-list 'load-path "~/.emacs.d/emacs-plugins/components/org-confluence/")
+(add-to-list 'load-path "~/.emacs.d/emacs-plugins/site-lisp/org-confluence/")
 (require 'org-confluence)
 
 ; use htmlize to highlight code block
-(add-to-list 'load-path "~/.emacs.d/emacs-plugins/components/htmlize/")
+(add-to-list 'load-path "~/.emacs.d/emacs-plugins/site-lisp/htmlize/")
 
 (add-to-list 'auto-mode-alist '("\\.\\(org\\|org_archive\\|txt\\)$" . org-mode))
 (global-font-lock-mode 1)

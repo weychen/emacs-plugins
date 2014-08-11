@@ -1,4 +1,4 @@
-(add-to-list 'load-path "~/.emacs.d/emacs-plugins/components/cflow/")
+(add-to-list 'load-path "~/.emacs.d/emacs-plugins/site-lisp/cflow/")
 
 (require 'cflow-mode)
 (defvar cmd nil nil)

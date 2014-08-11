@@ -1,4 +1,4 @@
-(add-to-list 'load-path "~/.emacs.d/emacs-plugins/components/highlight/")
+(add-to-list 'load-path "~/.emacs.d/emacs-plugins/site-lisp/highlight/")
 
 (require 'highlight-symbol)
 

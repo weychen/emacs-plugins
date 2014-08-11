@@ -1,4 +1,4 @@
-(add-to-list 'load-path "~/.emacs.d/emacs-plugins/components/gccsense/")
+(add-to-list 'load-path "~/.emacs.d/emacs-plugins/site-lisp/gccsense/")
 
 ;; 设置gccsence
 (setq ac-sources '(ac-source-clang-complete))

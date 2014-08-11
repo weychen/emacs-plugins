@@ -1,7 +1,7 @@
-(add-to-list 'load-path "~/.emacs.d/emacs-plugins/components/tabbar")
+(add-to-list 'load-path "~/.emacs.d/emacs-plugins/site-lisp/tabbar")
 
 ;; load mouse-wheel-mode
-(load-file "~/.emacs.d/emacs-plugins/components/mwheel/mwheel.el")
+(load-file "~/.emacs.d/emacs-plugins/site-lisp/mwheel/mwheel.el")
 (mouse-wheel-mode t)
 
 ;; tabbar
