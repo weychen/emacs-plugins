@@ -7,7 +7,7 @@
 
 ;; 自定义加载路径
 (setq load-path (cons
-                 "~/.emacs.d/emacs-plugins/workmodes/commons" load-path))
+                 "~/.emacs.d/emacs-plugins/bundles/commons" load-path))
 
 ;; 设置默认 用户名 和 email
 (setq user-full-name "Tan Menglong")
@@ -20,22 +20,22 @@
 (setq inhibit-startup-message)
 
 ;; 自定义外观
-(load-file "~/.emacs.d/emacs-plugins/workmodes/common/load-appearance.el")
+(load-file "~/.emacs.d/emacs-plugins/bundles/common/load-appearance.el")
 
 ;; tabbar
-(load-file "~/.emacs.d/emacs-plugins/workmodes/common/load-tabbar.el")
+(load-file "~/.emacs.d/emacs-plugins/bundles/common/load-tabbar.el")
 
 ;; auto-complete
-(load-file "~/.emacs.d/emacs-plugins/workmodes/common/load-auto-complete.el")
+(load-file "~/.emacs.d/emacs-plugins/bundles/common/load-auto-complete.el")
 
 ;; yanippet
-(load-file "~/.emacs.d/emacs-plugins/workmodes/common/load-yas.el")
+(load-file "~/.emacs.d/emacs-plugins/bundles/common/load-yas.el")
 
 ;; highlight-symbol
-(load-file "~/.emacs.d/emacs-plugins/workmodes/common/load-highlight.el")
+(load-file "~/.emacs.d/emacs-plugins/bundles/common/load-highlight.el")
 
 ;; keybindings
-(load-file "~/.emacs.d/emacs-plugins/workmodes/common/keybindings.el")
+(load-file "~/.emacs.d/emacs-plugins/bundles/common/keybindings.el")
 
 ;; setting up default browser when clicking on a link
 (setq gnus-button-url 'browse-url-generic

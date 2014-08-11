@@ -26,7 +26,7 @@
 
 ;; 自定义 footer.html 和 heeader.html
 (setq muse-html-footer
-	  "~/.emacs.d/emacs-plugins/workmodes/muse/muse-html-footer.html")
+	  "~/.emacs.d/emacs-plugins/bundles/muse/muse-html-footer.html")
 ;(setq muse-html-header "~/.emacs.d/plugins/muse-html-header.html")
 
-(load-file "~/.emacs.d/emacs-plugins/workmodes/muse/keybindings.el")
+(load-file "~/.emacs.d/emacs-plugins/bundles/muse/keybindings.el")

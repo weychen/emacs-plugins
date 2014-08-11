@@ -4,4 +4,4 @@
 (setq ediff-merge-split-window-function 'split-window-horizontally)
 
 ;; load keybindings
-(load-file "~/.emacs.d/emacs-plugins/workmodes/ediff/keybindings.el")
+(load-file "~/.emacs.d/emacs-plugins/bundles/ediff/keybindings.el")

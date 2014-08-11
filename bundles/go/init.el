@@ -1,4 +1,4 @@
-(add-to-list 'load-path "~/.emacs.d/emacs-plugins/workmodes/go")
+(add-to-list 'load-path "~/.emacs.d/emacs-plugins/bundles/go")
 
 ;; 设置缩进风格
 ;(customize-variable (quote tab-stop-list))
@@ -8,10 +8,10 @@
 (setq tab-width 2)
 ;(setq tab-stop-list ())
 
-;(load-file "~/.emacs.d/emacs-plugins/workmodes/go/go-mode.el")
-;(load-file "~/.emacs.d/emacs-plugins/workmodes/go/go-mode-load.el")
-;(load-file "~/.emacs.d/emacs-plugins/workmodes/go/go-autocomplete.el")
-;(load-file "~/.emacs.d/emacs-plugins/workmodes/common/load-auto-complete.el")
+;(load-file "~/.emacs.d/emacs-plugins/bundles/go/go-mode.el")
+;(load-file "~/.emacs.d/emacs-plugins/bundles/go/go-mode-load.el")
+;(load-file "~/.emacs.d/emacs-plugins/bundles/go/go-autocomplete.el")
+;(load-file "~/.emacs.d/emacs-plugins/bundles/common/load-auto-complete.el")
 
 (require 'go-mode-load)
 (require 'go-autocomplete)

@@ -1,23 +1,23 @@
-(add-to-list 'load-path "~/.emacs.d/emacs-plugins/workmodes/cpp")
+(add-to-list 'load-path "~/.emacs.d/emacs-plugins/bundles/cpp")
 
 ;; cflow-mode
-(load-file "~/.emacs.d/emacs-plugins/workmodes/cpp/load-cflow.el")
+(load-file "~/.emacs.d/emacs-plugins/bundles/cpp/load-cflow.el")
 
 ;; outline-mode
-(load-file "~/.emacs.d/emacs-plugins/workmodes/cpp/load-outline-mode.el")
+(load-file "~/.emacs.d/emacs-plugins/bundles/cpp/load-outline-mode.el")
 
 ;; cedet
-(load-file "~/.emacs.d/emacs-plugins/workmodes/cpp/load-cedet.el")
+(load-file "~/.emacs.d/emacs-plugins/bundles/cpp/load-cedet.el")
 
 ;; ecb
 (setq stack-trace-on-error t)
-(load-file "~/.emacs.d/emacs-plugins/workmodes/cpp/load-ecb.el")
+(load-file "~/.emacs.d/emacs-plugins/bundles/cpp/load-ecb.el")
 
 ;; coding style
-(load-file "~/.emacs.d/emacs-plugins/workmodes/cpp/load-codingstyle.el")
+(load-file "~/.emacs.d/emacs-plugins/bundles/cpp/load-codingstyle.el")
 
 ;; load keybindings
-(load-file "~/.emacs.d/emacs-plugins/workmodes/cpp/keybindings.el")
+(load-file "~/.emacs.d/emacs-plugins/bundles/cpp/keybindings.el")
 
 ;; 改变每行超出80个字符部分的颜色
 (require 'whitespace)

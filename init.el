@@ -1,13 +1,13 @@
 ;; load common-settings
-(load-file "~/.emacs.d/emacs-plugins/workmodes/common/init.el")
-(load-file "~/.emacs.d/emacs-plugins/workmodes/erlang/init.el")
-(load-file "~/.emacs.d/emacs-plugins/workmodes/graphviz/init.el")
+(load-file "~/.emacs.d/emacs-plugins/bundles/common/init.el")
+(load-file "~/.emacs.d/emacs-plugins/bundles/erlang/init.el")
+(load-file "~/.emacs.d/emacs-plugins/bundles/graphviz/init.el")
 
 (add-hook 'find-file-hook (lambda()
                 (if (string="org" (file-name-extension
                            buffer-file-name))
                 (progn
-                  (load-file "~/.emacs.d/emacs-plugins/workmodes/org/init.el"))
+                  (load-file "~/.emacs.d/emacs-plugins/bundles/org/init.el"))
                   )))
 
 (add-hook 'find-file-hook (lambda()
@@ -16,7 +16,7 @@
                                     (string="ex" (file-name-extension
                                                   buffer-file-name)))
                                 (progn
-                                  (load-file "~/.emacs.d/emacs-plugins/workmodes/elixir/init.el"))
+                                  (load-file "~/.emacs.d/emacs-plugins/bundles/elixir/init.el"))
                               )))
 
 (add-to-list 'auto-mode-alist '("\\.ino\\'" . c++-mode))
@@ -35,7 +35,7 @@
                                        buffer-file-name))
                         )
                 (progn
-                  (load-file "~/.emacs.d/emacs-plugins/workmodes/cpp/init.el"))
+                  (load-file "~/.emacs.d/emacs-plugins/bundles/cpp/init.el"))
                   )))
 
 (add-hook 'find-file-hook
@@ -46,42 +46,42 @@
                                  buffer-file-name))
                     )
                 (progn
-                  (load-file "~/.emacs.d/emacs-plugins/workmodes/perl/init.el"))
+                  (load-file "~/.emacs.d/emacs-plugins/bundles/perl/init.el"))
               )))
 
 (add-hook 'find-file-hook (lambda()
                 (if (string="py" (file-name-extension
                                   buffer-file-name))
                 (progn
-                  (load-file "~/.emacs.d/emacs-plugins/workmodes/python/init.el"))
+                  (load-file "~/.emacs.d/emacs-plugins/bundles/python/init.el"))
                   )))
 
 (add-hook 'find-file-hook (lambda()
                 (if (string="dot" (file-name-extension
                                    buffer-file-name))
                 (progn
-                  (load-file "~/.emacs.d/emacs-plugins/workmodes/graphviz/init.el"))
+                  (load-file "~/.emacs.d/emacs-plugins/bundles/graphviz/init.el"))
                   )))
 
 (add-hook 'find-file-hook (lambda()
                 (if (string="tex" (file-name-extension
                                    buffer-file-name))
                 (progn
-                  (load-file "~/.emacs.d/emacs-plugins/workmodes/latex/init.el"))
+                  (load-file "~/.emacs.d/emacs-plugins/bundles/latex/init.el"))
                   )))
 
 (add-hook 'find-file-hook (lambda()
                 (if (string="R" (file-name-extension
                                  buffer-file-name))
                 (progn
-                  (load-file "~/.emacs.d/emacs-plugins/workmodes/r/init.el"))
+                  (load-file "~/.emacs.d/emacs-plugins/bundles/r/init.el"))
                   )))
 
 (add-hook 'find-file-hook (lambda()
                 (if (string="md" (file-name-extension
                                  buffer-file-name))
                 (progn
-                  (load-file "~/.emacs.d/emacs-plugins/workmodes/markdown/init.el"))
+                  (load-file "~/.emacs.d/emacs-plugins/bundles/markdown/init.el"))
                   )))
 
 (add-hook 'find-file-hook (lambda()
@@ -90,19 +90,19 @@
                         (string="htm" (file-name-extension
                                        buffer-file-name)))
                 (progn
-                  (load-file "~/.emacs.d/emacs-plugins/workmodes/html/init.el"))
+                  (load-file "~/.emacs.d/emacs-plugins/bundles/html/init.el"))
                   )))
 
 (add-hook 'find-file-hook (lambda()
                 (if (string="msc" (file-name-extension
                                    buffer-file-name))
                 (progn
-                  (load-file "~/.emacs.d/emacs-plugins/workmodes/msc/init.el"))
+                  (load-file "~/.emacs.d/emacs-plugins/bundles/msc/init.el"))
                   )))
 
 (add-hook 'find-file-hook (lambda()
                 (if (string="go" (file-name-extension
                                   buffer-file-name))
                 (progn
-                  (load-file "~/.emacs.d/emacs-plugins/workmodes/go/init.el"))
+                  (load-file "~/.emacs.d/emacs-plugins/bundles/go/init.el"))
                 )))
