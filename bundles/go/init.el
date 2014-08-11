@@ -5,7 +5,7 @@
 (setq-default indent-tabs-mode t)
 (setq indent-tabs-mode t)
 (setq default-tab-width 2)
-(setq tab-width 2)
+(setq tab-width 4)
 ;(setq tab-stop-list ())
 
 ;(load-file "~/.emacs.d/emacs-plugins/bundles/go/go-mode.el")
