@@ -22,7 +22,9 @@
 
 package ${2:main}
 
-import "${3:fmt}"
+import (
+       "${3:fmt}"
+)
 
 func main() {
   $4
