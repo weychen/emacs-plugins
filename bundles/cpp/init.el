@@ -19,11 +19,6 @@
 ;; load keybindings
 (load-file "~/.emacs.d/emacs-plugins/bundles/cpp/keybindings.el")
 
-;; 改变每行超出80个字符部分的颜色
-(require 'whitespace)
-(setq whitespace-style '(face empty tabs lines-tail trailing))
-(global-whitespace-mode t)
-
 ;; 设置缩进风格
 ;(customize-variable (quote tab-stop-list))
 ;(setq-default indent-tabs-mode nil)

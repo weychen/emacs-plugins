@@ -14,11 +14,6 @@
 (load-file "~/.emacs.d/emacs-plugins/site-lisp/erlang-mode/erlang-flymake.el")
 (require 'erlang-flymake)
 
-;; 改变每行超出80个字符部分的颜色
-(require 'whitespace)
-(setq whitespace-style '(face empty tabs lines-tail trailing))
-(global-whitespace-mode t)
-
 ;; 缩进风格
 (setq-default indent-tabs-mode nil)
 (setq indent-tabs-mode nil)

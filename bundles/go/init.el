@@ -22,8 +22,3 @@
 ; remove unused imports
 (add-hook 'go-mode-hook (lambda ()
                           (global-set-key (kbd "C-c C-r") 'go-remove-unused-imports)))
-
-;; 改变每行超出80个字符部分的颜色
-(require 'whitespace)
-(setq whitespace-style '(face empty tabs lines-tail trailing))
-(global-whitespace-mode t)

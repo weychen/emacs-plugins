@@ -75,3 +75,9 @@
 ;(set-face-background 'hl-line "#dddddd")
 
 (setq show-trailing-whitespace t)
+
+;; 改变每行超出80个字符部分的颜色
+(require 'whitespace)
+(setq whitespace-line-column 120)
+(setq whitespace-style '(face empty tabs lines-tail trailing))
+(global-whitespace-mode t)
