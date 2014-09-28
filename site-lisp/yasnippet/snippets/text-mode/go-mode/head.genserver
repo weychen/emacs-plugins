@@ -37,6 +37,12 @@ type ${3:Service} struct {
 	server genserver.GenServer
 }
 
+func (this *$3) Start() {
+	this.once.Do(func() {
+		this.server.Start(callback{}, nil)
+	})
+}
+
 //===================================================================
 // GenServer callbacks
 //===================================================================
@@ -67,9 +73,3 @@ func (this callback) Terminate(s, reason interface{}) {}
 const (
 	reqA = 1 << iota
 )
-
-func (this *$3) init() {
-	this.once.Do(func() {
-		this.server.Start(callback{}, nil)
-	})
-}
