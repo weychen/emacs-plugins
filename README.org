@@ -12,9 +12,9 @@ perl -e "$(curl -fsSL https://raw.github.com/crackcell/emacs-plugins/master/tool
 ** 手动执行
    1. 将代码checkout到~/.emacs.d/下
    2. cp ~/.emacs.d/emacs-plugins/emacs ~/.emacs
-   3. 在~/.bashrc下加入：
+   3. 在~/.bashrc或者~/.zshrc下加入：
 #+BEGIN_SRC shell
-source ~/.emacs.d/emacs-plugins/shell.sh
+source ~/.emacs.d/emacs-plugins/scripts/init-shell.sh
 #+END_SRC
 * 通用快捷键
   - C-k 删除一整行
