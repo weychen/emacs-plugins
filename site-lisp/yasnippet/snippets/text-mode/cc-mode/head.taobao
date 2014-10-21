@@ -1,0 +1,24 @@
+#name : head.taobao
+# --
+/* -*- encoding: utf-8; indent-tabs-mode: nil -*- */
+
+/***************************************************************
+ *
+ * Copyright (c) `(format-time-string "%Y")`, Taobao.com
+ *
+ **************************************************************/
+
+/**
+ * $2
+ *
+ * @file `(file-name-nondirectory (buffer-file-name))`
+ * @author Menglong TAN <menglong.tml@alibaba-inc.com>
+ * @date `(current-time-string)`
+ *
+ **/
+
+${1:#include <stdio.h>}
+
+$3
+
+/* vim: set expandtab shiftwidth=2 tabstop=2: */
