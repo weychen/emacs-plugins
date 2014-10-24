@@ -6,11 +6,13 @@
 (loop for x downfrom 40 to 1 do
       (setq tab-stop-list (cons (* x 4) tab-stop-list)))
 
+;(add-to-list 'load-path "~/.emacs.d/emacs-plugins/site-lisp/org/lisp")
+
 (require 'org)
 
 ; org-confluence
-(add-to-list 'load-path "~/.emacs.d/emacs-plugins/site-lisp/org-confluence/")
-(require 'org-confluence)
+;(add-to-list 'load-path "~/.emacs.d/emacs-plugins/site-lisp/org-confluence/")
+;(require 'org-confluence)
 
 ; use htmlize to highlight code block
 (add-to-list 'load-path "~/.emacs.d/emacs-plugins/site-lisp/htmlize/")
@@ -42,8 +44,6 @@
 (add-hook 'org-agenda-mode-hook 'hl-line-mode)
 
 (load-file "~/.emacs.d/emacs-plugins/bundles/org/keybindings.el")
-;(load-file "~/.emacs.d/emacs-plugins/bundles/muse/init.el")
-;(load-file "~/.emacs.d/emacs-plugins/bundles/markdown/init.el")
 
 (org-babel-do-load-languages
  'org-babel-load-languages
