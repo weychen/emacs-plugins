@@ -22,11 +22,24 @@ LINKFLAGS = -rdynamic
 
 BUILD_TARGETS = $1
 
+INC = ${3:-Iinclude -I./}
+LIB = 
+
+SRC = $(wildcard *.cc)
+OBJ = $(patsubst %.cc, %.o, $(SRC))
+
+%.o : %.cc
+	$(CXX) $(CXXFLAGS) $(INC) -c -o $@ $<
+
+%_d.o : %.cc
+	$(CXX) $(CXXFLAGS_DEBUG) $(INC) -c -o $@ $<
+
 .PHONY : all output clean help
 
 all : ${2:output}
 
-$1 : 
+$1 : $(OBJ)
+   $(LINK) -o $@ $^ $(LIB)
 
 output: $(BUILD_TARGETS)
 	mkdir -p output
