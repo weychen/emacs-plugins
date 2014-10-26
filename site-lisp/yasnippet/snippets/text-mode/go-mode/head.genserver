@@ -73,3 +73,9 @@ func (this callback) Terminate(s, reason interface{}) {}
 const (
 	reqA = 1 << iota
 )
+
+func (this *List) assertStart() {
+	if !this.start {
+		panic(gotp.ErrNotStart)
+	}
+}
