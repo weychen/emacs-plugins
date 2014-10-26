@@ -1,11 +1,8 @@
-#name : head
+#name : head.taobao
 # --
 /***************************************************************
  *
- * Copyright (c) `(format-time-string "%Y")`, Menglong TAN <tanmenglong@gmail.com>
- *
- * This program is free software; you can redistribute it
- * and/or modify it under the terms of the GPL licence
+ * Copyright (c) `(format-time-string "%Y")`, Taobao.com.
  *
  **************************************************************/
 
@@ -13,7 +10,7 @@
  * $1
  *
  * @file `(file-name-nondirectory (buffer-file-name))`
- * @author Menglong TAN <tanmenglong@gmail.com>
+ * @author Menglong TAN <menglong.tml@alibaba-inc.com>
  * @date `(current-time-string)`
  *
  **/

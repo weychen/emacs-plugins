@@ -1,4 +1,5 @@
 (add-to-list 'load-path "~/.emacs.d/emacs-plugins/bundles/go")
+(add-to-list 'load-path "~/.emacs.d/emacs-plugins/site-lisp/go-mode")
 
 ;; 设置缩进风格
 ;(customize-variable (quote tab-stop-list))
