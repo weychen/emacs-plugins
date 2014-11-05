@@ -1,6 +1,8 @@
 ;; yanippet
 (load-file "~/.emacs.d/emacs-plugins/bundles/common/load-yas.el")
 
+(add-to-list 'load-path "~/.emacs.d/emacs-plugins/site-lisp")
+
 (add-to-list 'load-path "~/.emacs.d/emacs-plugins/bundles/python/emacs-deferred")
 (add-to-list 'load-path "~/.emacs.d/emacs-plugins/bundles/python/emacs-ctable")
 (add-to-list 'load-path "~/.emacs.d/emacs-plugins/bundles/python/emacs-epc")
