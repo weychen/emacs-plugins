@@ -1,3 +1,5 @@
+(server-start)
+
 ;; fix meta key in macosx
 ;(set-keyboard-coding-system nil)
 
