@@ -28,7 +28,7 @@
 
 ;; 初始窗口大小
 (if window-system
-    (set-frame-size (selected-frame) 120 40))
+    (set-frame-size (selected-frame) 100 60))
 
 ;; 光标颜色
 (set-cursor-color "red")
@@ -78,6 +78,6 @@
 
 ;; 改变每行超出80个字符部分的颜色
 (require 'whitespace)
-(setq whitespace-line-column 120)
+(setq whitespace-line-column 80)
 (setq whitespace-style '(face empty tabs lines-tail trailing))
 (global-whitespace-mode t)
