@@ -1,7 +1,8 @@
 ;; load common-settings
 (load-file "~/.emacs.d/emacs-plugins/bundles/common/init.el")
-;(load-file "~/.emacs.d/emacs-plugins/bundles/erlang/init.el")
+(load-file "~/.emacs.d/emacs-plugins/bundles/erlang/init.el")
 (load-file "~/.emacs.d/emacs-plugins/bundles/graphviz/init.el")
+(load-file "~/.emacs.d/emacs-plugins/bundles/org/init.el")
 (load-file "~/.emacs.d/emacs-plugins/bundles/go/init.el")
 
 (add-hook 'find-file-hook (lambda()

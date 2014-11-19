@@ -1,9 +1,9 @@
 #name : gen_server skeleton
-#contributor : crackcell <tanmenglong@gmail.com>
+#contributor : Menglong TAN <tanmenglong@gmail.com>
 # --
 %%%-------------------------------------------------------------------
-%%% @author crackcell <tanmenglong@gmail.com>
-%%% @copyright (c) `(format-time-string "%Y")`, crackcell
+%%% @author Menglong TAN <tanmenglong@gmail.com>
+%%% @copyright (c) `(format-time-string "%Y")`, Menglong TAN
 %%% @doc
 %%% ${1:file desc}
 %%% @end

@@ -1,10 +1,9 @@
 #name : head
-#contributor : crackcell <tanmenglong@gmail.com>
+#contributor : Menglong TAN <tanmenglong@gmail.com>
 # --
-%%%-*- encoding: utf-8; indent-tabs-mode: nil -*-
 %%%-------------------------------------------------------------------
-%%% @author crackcell <tanmenglong@gmail.com>
-%%% @copyright (c) `(format-time-string "%Y")`, crackcell
+%%% @author Mengong TAN <tanmenglong@gmail.com>
+%%% @copyright (c) `(format-time-string "%Y")`, Menglong TAN
 %%% @doc
 %%% ${1:file desc}
 %%% @end

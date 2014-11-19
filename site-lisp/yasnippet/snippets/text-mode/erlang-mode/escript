@@ -1,19 +1,18 @@
 #name : escript skeleton
-#contributor : crackcell <tanmenglong@gmail.com>
+#contributor : Menglong TAN <tanmenglong@gmail.com>
 # --
 #!/usr/bin/env escript
-%% -*- mode: erlang -*-
 
 %%%-------------------------------------------------------------------
-%%% @author crackcell <tanmenglong@gmail.com>
-%%% @copyright (c) `(format-time-string "%Y")`, crackcell
+%%% @author Menglong TAN <tanmenglong@gmail.com>
+%%% @copyright (c) `(format-time-string "%Y")`, Menglong TAN
 %%% @doc
 %%% ${1:file desc}
 %%% @end
 %%% Created : `(current-time-string)`
 %%%-------------------------------------------------------------------
 
--author("crackcell").
+-author("Menglong TAN").
 -export([main/1]).
 
 %%%===================================================================
