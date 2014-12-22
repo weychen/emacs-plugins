@@ -1,0 +1,15 @@
+#name : head
+# --
+#!/usr/bin/env python
+# -*- encoding: utf-8; indent-tabs-mode: nil -*-
+"""
+    `(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`
+    `(make-string (length (file-name-nondirectory (file-name-sans-extension (buffer-file-name)))) ?~)`
+
+    ${1:desc}
+
+    :copyright: (c) `(format-time-string "%Y")` Taobao.com
+"""
+
+if __name__ == "__main__":
+    pass
