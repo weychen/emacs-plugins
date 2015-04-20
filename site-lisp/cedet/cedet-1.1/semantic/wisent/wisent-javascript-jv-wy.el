@@ -3,7 +3,7 @@
 ;; Copyright (C) 2005-2011 Free Software Foundation, Inc.
 
 ;; Author: Menglong TAN <crackcell@crackcell-x230>
-;; Created: 2014-07-14 12:02:59+0800
+;; Created: 2015-04-20 15:37:12+0800
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 

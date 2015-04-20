@@ -2,8 +2,8 @@
 
 ;;; Copyright (C) 2007 Daniel Debertin (debertin@gmail.com)
 
-;; Author: Menglong TAN <crackcell@crackcell-c6100.local>
-;; Created: 2013-12-22 22:58:49+0800
+;; Author: Menglong TAN <crackcell@crackcell-x230>
+;; Created: 2015-04-20 15:37:27+0800
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 

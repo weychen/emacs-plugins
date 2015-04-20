@@ -15,15 +15,15 @@
 
 #------------------- main -------------------
 
-make -C ~/.emacs.d/emacs-plugins/components/auto-complete/auto-complete/
-cd ~/.emacs.d/emacs-plugins/components/cedet/ && tar xzvf cedet-1.1.tar.gz
-make -C ~/.emacs.d/emacs-plugins/components/cedet/cedet-1.1/
-make -C ~/.emacs.d/emacs-plugins/components/color-theme/color-theme-6.6.0/
-make -C ~/.emacs.d/emacs-plugins/components/distel/
-make -C ~/.emacs.d/emacs-plugins/components/ecb/ecb-2.40/
-make -C ~/.emacs.d/emacs-plugins/components/muse/muse/
-make -C ~/.emacs.d/emacs-plugins/components/slime/
-make -C ~/.emacs.d/emacs-plugins/components/yasnippet/yasnippet/
+make -C ~/.emacs.d/emacs-plugins/site-lisp/auto-complete/auto-complete/
+cd ~/.emacs.d/emacs-plugins/site-lisp/cedet/ && tar xzvf cedet-1.1.tar.gz
+make -C ~/.emacs.d/emacs-plugins/site-lisp/cedet/cedet-1.1/
+make -C ~/.emacs.d/emacs-plugins/site-lisp/color-theme/color-theme-6.6.0/
+make -C ~/.emacs.d/emacs-plugins/site-lisp/distel/
+make -C ~/.emacs.d/emacs-plugins/site-lisp/ecb/ecb-2.40/
+make -C ~/.emacs.d/emacs-plugins/site-lisp/muse/muse/
+make -C ~/.emacs.d/emacs-plugins/site-lisp/slime/
+make -C ~/.emacs.d/emacs-plugins/site-lisp/yasnippet/yasnippet/
 
 if [ -e ~/.bashrc ]; then
 	echo "source ~/.emacs.d/emacs-plugins/tools/init-shell.sh" >> ~/.bashrc;

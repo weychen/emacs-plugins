@@ -2,8 +2,8 @@
 
 ;; Copyright (C) 2003, 2004, 2009 Eric M. Ludlam
 
-;; Author: Menglong TAN <crackcell@crackcell-c6100.local>
-;; Created: 2013-12-22 22:58:42+0800
+;; Author: Menglong TAN <crackcell@crackcell-x230>
+;; Created: 2015-04-20 15:37:23+0800
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 

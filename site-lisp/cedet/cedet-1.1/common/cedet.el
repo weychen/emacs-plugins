@@ -75,8 +75,7 @@
 
 ;;; Code:
 (when (featurep 'cedet)
-;  (error "CEDET Version %s already loaded." cedet-version))
-)
+  (error "CEDET Version %s already loaded." cedet-version))
 
 (eval-when-compile
   (require 'cl)

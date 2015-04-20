@@ -3,7 +3,7 @@
 ;; Copyright (C) 2002, 2003, 2004 David Ponce
 
 ;; Author: Menglong TAN <crackcell@crackcell-x230>
-;; Created: 2014-07-14 12:02:51+0800
+;; Created: 2015-04-20 15:37:05+0800
 ;; Keywords: syntax
 ;; X-RCS: $Id$
 
