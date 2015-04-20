@@ -26,10 +26,10 @@ make -C ~/.emacs.d/emacs-plugins/site-lisp/slime/
 make -C ~/.emacs.d/emacs-plugins/site-lisp/yasnippet/yasnippet/
 
 if [ -e ~/.bashrc ]; then
-	echo "source ~/.emacs.d/emacs-plugins/tools/init-shell.sh" >> ~/.bashrc;
+	echo "source ~/.emacs.d/emacs-plugins/scripts/init-shell.sh" >> ~/.bashrc;
 fi
 if [ -e ~/.zshrc ]; then
-	echo "source ~/.emacs.d/emacs-plugins/tools/init-shell.sh" >> ~/.zshrc;
+	echo "source ~/.emacs.d/emacs-plugins/scripts/init-shell.sh" >> ~/.zshrc;
 fi
 
 cp ~/.emacs.d/emacs-plugins/emacs ~/.emacs
