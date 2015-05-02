@@ -54,7 +54,7 @@
 (setq load-path (cons
                  "~/.emacs.d/emacs-plugins/site-lisp/color-theme-solarized" load-path))
 (require 'color-theme-solarized)
-(color-theme-solarized-dark)
+;(color-theme-solarized-dark)
 ;(color-theme-solarized-light)
 
 ;(color-theme-crackcell-light1)
