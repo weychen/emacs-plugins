@@ -1,17 +1,17 @@
-# name : head
+# name : head.taobao
 # contributor : Tan Menglong <tanmenglong@gmail.com>
 # --
 #!/usr/bin/env Rscript
 #' -*- encoding: utf-8; indent-tabs-mode: nil -*-
 #'
-#' Copyright (c) `(format-time-string "%Y")`, Menglong Tan <tanmenglong@gmail.com>
+#' Copyright (c) `(format-time-string "%Y")`, Taobao.com
 #'
 #' This program is free software; you can redistribute it
 #' and/or modify it under the terms of the GPL licence
 #'
 #'
 #' @file `(file-name-nondirectory (buffer-file-name))`
-#' @author crackcell <tanmenglong@gmail.com>
+#' @author Menglong TAN <menglong.tml@alibaba-inc.com>
 #' @date `(current-time-string)`
 #' @brief $1
 #'

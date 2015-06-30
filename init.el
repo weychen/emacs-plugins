@@ -4,6 +4,7 @@
 (load-file "~/.emacs.d/emacs-plugins/bundles/graphviz/init.el")
 (load-file "~/.emacs.d/emacs-plugins/bundles/org/init.el")
 (load-file "~/.emacs.d/emacs-plugins/bundles/go/init.el")
+(load-file "~/.emacs.d/emacs-plugins/bundles/r/init.el")
 
 (add-hook 'find-file-hook (lambda()
                 (if (string="org" (file-name-extension
@@ -74,7 +75,7 @@
 
 (add-hook 'find-file-hook (lambda()
                 (if (string="R" (file-name-extension
-                                 buffer-file-name))
+                                   buffer-file-name))
                 (progn
                   (load-file "~/.emacs.d/emacs-plugins/bundles/r/init.el"))
                   )))

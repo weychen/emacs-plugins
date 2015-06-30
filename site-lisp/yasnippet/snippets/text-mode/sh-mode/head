@@ -1,4 +1,4 @@
-#name : head.ziqiang
+#name : head
 # --
 #!/bin/bash
 ##! @description: ${1:usage}

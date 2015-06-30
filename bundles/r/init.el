@@ -19,3 +19,10 @@
 (load "~/.emacs.d/emacs-plugins/bundles/r/crackcell-r-style.el")
 (crackcell-set-r-style)
 ;(add-hook 'ess-mode-hook 'crackcell-set-r-style)
+
+;; auto-complete
+(load-file "~/.emacs.d/emacs-plugins/bundles/common/load-auto-complete.el")
+
+;; yanippet
+(load-file "~/.emacs.d/emacs-plugins/bundles/common/load-yas.el")
+
