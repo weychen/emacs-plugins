@@ -60,3 +60,5 @@
    (sh . t)
    (sql . nil)
    (sqlite . nil)))
+
+(setq org-export-with-sub-superscripts '{})
