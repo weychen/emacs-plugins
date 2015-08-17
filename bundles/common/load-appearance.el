@@ -58,7 +58,7 @@
 ;(color-theme-solarized-light)
 
 ;(color-theme-crackcell-light1)
-(color-theme-blackboard)
+;(color-theme-blackboard)
 
 ;; 开启行号
 (require 'linum)
@@ -74,10 +74,9 @@
 ; 高亮背景颜色
 ;(set-face-background 'hl-line "#dddddd")
 
-(setq show-trailing-whitespace t)
-
 ;; 改变每行超出80个字符部分的颜色
 (require 'whitespace)
 (setq whitespace-line-column 80)
-(setq whitespace-style '(face empty tabs lines-tail trailing))
+;(setq whitespace-style '(face empty tabs lines-tail trailing))
+(setq whitespace-style '(face empty lines-tail trailing))
 (global-whitespace-mode t)
