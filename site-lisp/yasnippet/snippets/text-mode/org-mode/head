@@ -1,7 +1,7 @@
 # -*- mode: org -*-
 
 #+TITLE: ${1:标题}
-#+AUTHOR: Tan Menglong
+#+AUTHOR: Menglong TAN
 #+EMAIL: tanmenglong AT gmail DOT com
 #+DATE: `(current-time-string)`
 #+STYLE: <link rel="stylesheet" type="text/css" href="http://blog.crackcell.com/static/org-mode/org-mode.css" />

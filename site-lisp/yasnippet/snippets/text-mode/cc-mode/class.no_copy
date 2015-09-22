@@ -2,7 +2,7 @@
 # --
 /**
  * @brief ${1:description}
- * @author ${2:Tan Menglong <tanmenglong@gmail.com>}
+ * @author ${2:Menglong TAN <tanmenglong@gmail.com>}
  */
 class ${3:ClassName} {
 /* functions for building the class */
