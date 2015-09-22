@@ -26,4 +26,4 @@
 (add-hook 'go-mode-hook (lambda ()
                           (global-set-key (kbd "C-c C-r") 'go-remove-unused-imports)))
 
-(load-file "~/.emacs.d/emacs-plugins/bundles/go/keys.el")
+;(load-file "~/.emacs.d/emacs-plugins/bundles/go/keys.el")
