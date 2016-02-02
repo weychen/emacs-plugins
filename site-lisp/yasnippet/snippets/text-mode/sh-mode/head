@@ -3,7 +3,7 @@
 #!/bin/bash
 ##! @description: ${1:usage}
 ##! @version: ${2:1}
-##! @author: crackcell <tanmenglong@gmail.com>
+##! @author: Menglong TAN <tanmenglong@gmail.com>
 ##! @date:   `(current-time-string)`
 
 #------------------- library ------------------
