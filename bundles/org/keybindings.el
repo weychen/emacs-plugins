@@ -19,10 +19,7 @@
 
 ;(defun org-mode-keys()
   ;; 发布
-<<<<<<< HEAD
   ;;(global-set-key [f5] 'org-export-as-html)
-=======
->>>>>>> 32ca2961e0880d9fdf1e42f022196faa33a0063f
   (global-set-key [f5] 'org-html-export-to-html)
   (global-set-key [f6]
 				 (lambda() (interactive) (org-write-agenda "~/Desktop/agenda.html")))
