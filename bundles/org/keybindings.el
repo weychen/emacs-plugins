@@ -19,7 +19,8 @@
 
 ;(defun org-mode-keys()
   ;; 发布
-  (global-set-key [f5] 'org-export-as-html)
+  ;(global-set-key [f5] 'org-export-as-html)
+  (global-set-key [f5] 'org-html-export-to-html)
   (global-set-key [f6]
 				 (lambda() (interactive) (org-write-agenda "~/Desktop/agenda.html")))
 
