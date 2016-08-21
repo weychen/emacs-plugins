@@ -1,9 +1,9 @@
-#name : head
+#name : head.rrc
 # --
 #!/bin/bash
 ##! @description: ${1:usage}
 ##! @version: ${2:1}
-##! @author: Menglong TAN <tanmenglong@gmail.com>
+##! @author: Menglong TAN <tanmenglong@renrenche.com>
 ##! @date:   `(current-time-string)`
 
 #------------------- library ------------------

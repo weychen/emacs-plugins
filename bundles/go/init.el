@@ -14,12 +14,16 @@
 ;(load-file "~/.emacs.d/emacs-plugins/bundles/go/go-autocomplete.el")
 ;(load-file "~/.emacs.d/emacs-plugins/bundles/common/load-auto-complete.el")
 
+(load-file "~/.emacs.d/emacs-plugins/bundles/go/go-autocomplete.el")
 (require 'go-mode-load)
 (require 'go-autocomplete)
 (require 'auto-complete-config)
+(ac-config-default)
 
 (add-hook 'before-save-hook 'gofmt-before-save)
 
 ; remove unused imports
 (add-hook 'go-mode-hook (lambda ()
                           (global-set-key (kbd "C-c C-r") 'go-remove-unused-imports)))
+
+;(load-file "~/.emacs.d/emacs-plugins/bundles/go/keys.el")

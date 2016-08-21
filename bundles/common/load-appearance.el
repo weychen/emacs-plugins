@@ -9,7 +9,7 @@
  '(menu-bar-mode nil)
  '(semantic-default-submodes (quote (global-semantic-decoration-mode global-semanticdb-minor-mode global-semantic-idle-summary-mode global-semantic-mru-bookmark-mode)))
  '(show-paren-mode t)
- '(tool-bar-mode nil)
+;; '(tool-bar-mode nil)
  '(truncate-partial-width-windows nil))
 (custom-set-faces
 (custom-set-variables
@@ -41,7 +41,7 @@
 (setq frame-title-format "%b")
 
 ;; 不显示 工具栏 和 菜单栏
-;(tool-bar-mode -1)
+;;(tool-bar-mode -1)
 (menu-bar-mode -1)
 
 ;; 颜色风格
@@ -76,7 +76,7 @@
 
 ;; 改变每行超出80个字符部分的颜色
 (require 'whitespace)
-(setq whitespace-line-column 80)
+(setq whitespace-line-column 120)
 ;(setq whitespace-style '(face empty tabs lines-tail trailing))
 (setq whitespace-style '(face empty lines-tail trailing))
 (global-whitespace-mode t)

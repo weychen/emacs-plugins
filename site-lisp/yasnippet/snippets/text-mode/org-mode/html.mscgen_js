@@ -1,0 +1,18 @@
+#name : html.mscgen_js
+#contributor : Menglong TAN <tanmenglong@gmail.com>
+# --
+#+BEGIN_HTML
+<pre class="mscgen_js">
+msc {
+  "App" -> "Agent";
+  "Agent" -> "Transfer";
+  "Transfer" -> "Judge" [label="一致性hash"];
+  "Judge" -> "Alarm";
+  "Transfer" -> "Graph";
+  "Transfer" -> "OpenTSDB";
+  "Graph" -> "Query" [label="一致性hash"];
+  "Query" -> "Dashboard";
+  "Web portal" -> "Heartbeat"
+}
+</pre>
+#+END_HTML
