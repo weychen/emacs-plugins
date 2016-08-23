@@ -41,7 +41,7 @@
 (setq frame-title-format "%b")
 
 ;; 不显示 工具栏 和 菜单栏
-(tool-bar-mode -1)
+;(tool-bar-mode -1)
 (menu-bar-mode -1)
 
 ;; 颜色风格
