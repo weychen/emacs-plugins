@@ -23,20 +23,18 @@
 (setq org-log-done t)
 (add-hook 'org-mode-hook (lambda () (setq truncate-lines nil)))
 
-(setq org-agenda-files (list "~/Agenda/gtd.org"
+(setq org-agenda-files (list "~/Agenda/family.org"
                              "~/Agenda/personal.org"
-                             "~/Agenda/inbox.org"
-                             "~/Agenda/hobby.org"
-                             "~/Agenda/periodical.org"
-                             "~/Agenda/notes.org"
-                             "~/Agenda/someday.org"))
+                             "~/Agenda/self-improvement.org"
+                             "~/Agenda/work/rrc.org"
+                             ))
 (setq org-footnote-auto-adjust t)
 
 (setq org-refile-targets
       '(
-        ("gtd.org" :maxlevel . 2)
-        ("someday.org" :level . 2)
-        ("inbox.org" :level . 2)
+        ("family.org" :maxlevel . 2)
+        ("personal.org" :level . 2)
+        ("self-improvement.org" :level . 2)
         (nil . (:todo . "Projects"))
         )
 )

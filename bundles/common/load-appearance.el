@@ -9,7 +9,7 @@
  '(menu-bar-mode nil)
  '(semantic-default-submodes (quote (global-semantic-decoration-mode global-semanticdb-minor-mode global-semantic-idle-summary-mode global-semantic-mru-bookmark-mode)))
  '(show-paren-mode t)
- '(tool-bar-mode nil)
+;; '(tool-bar-mode nil)
  '(truncate-partial-width-windows nil))
 (custom-set-faces
 (custom-set-variables

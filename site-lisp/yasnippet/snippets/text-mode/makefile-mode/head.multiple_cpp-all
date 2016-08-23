@@ -18,7 +18,7 @@ include Makefile.env
 all : ${2:output}
 
 output :
-	$(MAKE) -p output
+	mkdir -p output
 	$(MAKE) -C src
 
 clean :
