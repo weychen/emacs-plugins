@@ -1,10 +1,10 @@
-#name : head_h.renrenche
+#name : head_h.taobao
 # --
 /* -*- encoding: utf-8; indent-tabs-mode: nil -*- */
 
 /***************************************************************
  *
- * Copyright (c) `(format-time-string "%Y")`, Taobao.com
+ * Copyright (c) `(format-time-string "%Y")`, RenRenChe.com
  *
  **************************************************************/
 
@@ -15,7 +15,7 @@
  * $3
  *
  * @file `(file-name-nondirectory (buffer-file-name))`
- * @author Menglong TAN <menglong.tml@alibaba-inc.com>
+ * @author Menglong TAN <tanmenglong@renrenche.com>
  * @date `(current-time-string)`
  *
  **/
