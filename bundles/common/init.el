@@ -19,7 +19,7 @@
 (fset 'yes-or-no-p 'y-or-n-p)
 
 ;; 关闭启动信息
-(setq inhibit-startup-message)
+(setq inhibit-startup-message t)
 
 ;; 自定义外观
 (load-file "~/.emacs.d/emacs-plugins/bundles/common/load-appearance.el")
